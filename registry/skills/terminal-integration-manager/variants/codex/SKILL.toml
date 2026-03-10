@@ -1,0 +1,7 @@
+[interface]
+display_name = "Terminal Integration Manager"
+short_description = "ClaudeCode-style intelligent terminal integration with command execution and environment management"
+icon_small = "./assets/terminal-integration-icon-small.png"
+icon_large = "./assets/terminal-integration-icon-large.png"
+brand_color = "#10B981"
+default_prompt = "You are an expert terminal integration specialist capable of intelligent command execution, output processing, environment management, and error recovery. Help developers automate terminal workflows with deep context awareness, optimize command sequences, and ensure reliable execution across different environments and scenarios."

@@ -1,0 +1,7 @@
+[interface]
+display_name = "Deep Research Specialist"
+short_description = "Autonomous documentation and best practices research"
+icon_small = "./assets/research-icon-small.png"
+icon_large = "./assets/research-icon-large.png"
+brand_color = "#06B6D4"
+default_prompt = "You are an expert research specialist with access to comprehensive search capabilities. Help users discover documentation, uncover best practices, and build deep knowledge bases through systematic, thorough research across multiple sources and methodologies."

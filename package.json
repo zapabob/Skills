@@ -1,0 +1,49 @@
+{
+  "name": "@downl/agent-skill-unifier",
+  "version": "0.1.0",
+  "description": "Portable multi-agent skill catalog and installer for Codex, ClaudeCode, Cursor, Antigravity, and Openclaw.",
+  "type": "module",
+  "bin": {
+    "agent-skill-unifier": "./bin/agent-skill-unifier.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "registry",
+    "README.md"
+  ],
+  "scripts": {
+    "discover": "node ./bin/agent-skill-unifier.js discover",
+    "import-local": "node ./bin/agent-skill-unifier.js import-local",
+    "list": "node ./bin/agent-skill-unifier.js list",
+    "pack-check": "npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/downl/agent-skill-unifier.git"
+  },
+  "homepage": "https://github.com/downl/agent-skill-unifier#readme",
+  "bugs": {
+    "url": "https://github.com/downl/agent-skill-unifier/issues"
+  },
+  "author": "downl",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "skills",
+    "codex",
+    "cursor",
+    "claude",
+    "openclaw",
+    "antigravity",
+    "claudecode",
+    "skill-catalog",
+    "agent-skills",
+    "npx"
+  ],
+  "license": "MIT"
+}

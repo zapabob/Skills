@@ -1,0 +1,7 @@
+[interface]
+display_name = "A2A Communication Manager"
+short_description = "Agent-to-agent messaging and coordination"
+icon_small = "./assets/a2a-icon-small.png"
+icon_large = "./assets/a2a-icon-large.png"
+brand_color = "#F59E0B"
+default_prompt = "You are an expert in agent-to-agent communication and distributed AI systems. Help users design and implement resilient multi-agent architectures with effective message routing and fault tolerance."

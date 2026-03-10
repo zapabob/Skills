@@ -1,0 +1,1258 @@
+{
+  "generatedAt": "2026-03-10T09:00:13.096Z",
+  "skills": [
+    {
+      "slug": "a2a-communication-manager",
+      "displayName": "a2a-communication-manager",
+      "description": "Agent-to-Agent communication and coordination for Codex. This skill should be used when users need to implement inter-agent messaging, shared state management, or fault-tolerant communication between AI agents. Use for distributed AI systems, multi-agent workflows, and resilient agent networks.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\a2a-communication-manager"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "agentic-coding-assistant",
+      "displayName": "agentic-coding-assistant",
+      "description": "ClaudeCode-style agentic coding assistant with multi-file editing, terminal integration, and autonomous task execution. This skill should be used when performing complex coding tasks autonomously, editing multiple files simultaneously, executing terminal commands, or managing coding workflows with checkpoints and rollback capabilities. Use for refactoring, feature development, debugging, testing integration, and autonomous coding assistance.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\agentic-coding-assistant"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "architect",
+      "displayName": "architect",
+      "description": "Analyze system architecture, design patterns, module boundaries, and scalability. Provide high-level design recommendations and architectural decision records (ADR).",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\architect"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\architect"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "autonomous-orchestration-manager",
+      "displayName": "autonomous-orchestration-manager",
+      "description": "Autonomous task orchestration and coordination for Codex. This skill should be used when users need to decompose complex tasks, coordinate multiple agents, or manage token budgets across distributed operations. Use for complex multi-step workflows, agent coordination, and intelligent task planning.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\autonomous-orchestration-manager"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "blender-cad",
+      "displayName": "blender-cad",
+      "description": "\"Blender CAD modeling automation skill with STEP/IGES import, Geometry Nodes, and USD export support.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\blender-cad"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\blender-cad"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "build-manager",
+      "displayName": "build-manager",
+      "description": "Advanced build management agent that provides high-performance incremental compilation, hot reload capabilities, and intelligent build orchestration. Features MD5-based change detection, process management, and multi-platform deployment support with tqdm progress visualization.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\build-manager"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\build-manager"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "chatgpt-apps",
+      "displayName": "chatgpt-apps",
+      "description": "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridge or ChatGPT compatibility APIs, apply Apps SDK metadata or CSP or domain settings, or produce a docs-aligned project scaffold. Prefer a docs-first workflow by invoking the openai-docs skill or OpenAI developer docs MCP tools before generating code.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\chatgpt-apps"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "cicd-integration",
+      "displayName": "cicd-integration",
+      "description": "Comprehensive CI/CD integration agent that manages continuous integration and deployment pipelines with automated quality assurance, multi-platform support, and intelligent workflow orchestration. Seamlessly integrates with GitHub Actions, GitLab CI, Jenkins, CircleCI, and Azure DevOps for end-to-end DevOps automation.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\cicd-integration"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\cicd-integration"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "claudecode-subagent-system",
+      "displayName": "claudecode-subagent-system",
+      "description": "ClaudeCode-style subagent system for Codex. This skill should be used when creating and managing specialized AI subagents, configuring project-specific AI behaviors, and coordinating multiple AI personalities within development workflows. Use for custom agent definitions, environment-specific configurations, and intelligent task delegation across specialized AI assistants.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\claudecode-subagent-system"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "code-reviewer",
+      "displayName": "code-reviewer",
+      "description": "Advanced code analysis agent that performs comprehensive code reviews focusing on security, performance, maintainability, and best practices. Generates actionable feedback with severity levels and automated fix suggestions.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\code-reviewer"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\code-reviewer"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "codex-mcp-researcher",
+      "displayName": "codex-mcp-researcher",
+      "description": "Perform codex-mcp-researcher tasks",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\codex-mcp-researcher"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\codex-mcp-researcher"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "conflict-prevention-engine",
+      "displayName": "conflict-prevention-engine",
+      "description": "Intelligent merge conflict prevention and resolution system for Codex. This skill should be used when managing concurrent development, preventing merge conflicts, and ensuring safe collaborative coding workflows. Use for pre-merge analysis, conflict prediction, safe merge execution, and collaborative development coordination.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\conflict-prevention-engine"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "cowork-productivity-assistant",
+      "displayName": "cowork-productivity-assistant",
+      "description": "ClaudeCode Cowork-style productivity automation with file management, data analysis, browser operations, and autonomous task execution. This skill should be used when automating office productivity tasks, organizing files, analyzing data, scraping web content, or managing workflow automation. Use for document processing, data insights, web automation, and general productivity enhancement.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\cowork-productivity-assistant"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "create-rule",
+      "displayName": "create-rule",
+      "description": "Create Cursor rules for persistent AI guidance. Use when you want to create a rule, add coding standards, set up project conventions, configure file-specific patterns, create RULE.md files, or asks about .cursor/rules/ or AGENTS.md.",
+      "variants": [
+        {
+          "source": "cursor-rules",
+          "path": "variants/cursor-rules",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\create-rule"
+        }
+      ],
+      "canonicalVariant": "cursor-rules"
+    },
+    {
+      "slug": "create-skill",
+      "displayName": "create-skill",
+      "description": "Guides users through creating effective Agent Skills for Cursor. Use when you want to create, write, or author a new skill, or asks about skill structure, best practices, or SKILL.md format.",
+      "variants": [
+        {
+          "source": "cursor-rules",
+          "path": "variants/cursor-rules",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\create-skill"
+        }
+      ],
+      "canonicalVariant": "cursor-rules"
+    },
+    {
+      "slug": "create-subagent",
+      "displayName": "create-subagent",
+      "description": "Create custom subagents for specialized AI tasks. Use when you want to create a new type of subagent, set up task-specific agents, configure code reviewers, debuggers, or domain-specific assistants with custom prompts.",
+      "variants": [
+        {
+          "source": "cursor-rules",
+          "path": "variants/cursor-rules",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\create-subagent"
+        }
+      ],
+      "canonicalVariant": "cursor-rules"
+    },
+    {
+      "slug": "deep-research-specialist",
+      "displayName": "deep-research-specialist",
+      "description": "Autonomous deep research specialist for Codex. This skill should be used when users need Codex to autonomously explore documentation, discover best practices, conduct technical research, or build knowledge bases. Use for API documentation discovery, framework research, technology comparisons, implementation patterns, and comprehensive knowledge gathering.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\deep-research-specialist"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "demo-multi-agent-workflow",
+      "displayName": "demo-multi-agent-workflow",
+      "description": "Complete multi-agent workflow demonstration and testing system for Codex. This skill should be used when demonstrating end-to-end AI agent collaboration, testing complex workflows, or showcasing integrated development processes. Use for workflow validation, performance benchmarking, integration testing, and collaborative AI demonstrations.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\demo-multi-agent-workflow"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "dependency-analyst",
+      "displayName": "dependency-analyst",
+      "description": "Perform deep dependency analysis, manifest auditing, and supply-chain risk assessment across language ecosystems.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\dependency-analyst"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\dependency-analyst"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "dependency-scout",
+      "displayName": "dependency-scout",
+      "description": "Lightweight dependency insight agent for quick manifest scans, transitive surfacing, and license notes.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\dependency-scout"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\dependency-scout"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "develop-web-game",
+      "displayName": "\"develop-web-game\"",
+      "description": "\"Use when Codex is building or iterating on a web game (HTML/JS) and needs a reliable development + testing loop: implement small changes, run a Playwright-based test script with short input bursts and intentional pauses, inspect screenshots/text, and review console errors with render_game_to_text.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\develop-web-game"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "draft-wallhit-planner",
+      "displayName": "draft-wallhit-planner",
+      "description": "ドラフト文書の手直し（整合性チェック・数値更新・トーン修正）と、GPT/Gemini/Claude Opus/DeepResearch向け壁打ち文書の生成・フィードバック統合を行う。提案書レビュー、壁打きセッション準備、壁打ち結果の反映、提出前チェックリストに使用する。",
+      "variants": [
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\draft-wallhit-planner"
+        }
+      ],
+      "canonicalVariant": "cursor"
+    },
+    {
+      "slug": "dynamic-skill-dispatcher",
+      "displayName": "dynamic-skill-dispatcher",
+      "description": "Intelligent dynamic skill and MCP dispatching system for Codex. This skill should be used when dynamically selecting and executing skills or MCP servers based on task requirements, optimizing resource utilization, and enabling seamless integration across the Codex ecosystem. Use for intelligent task routing, cross-component communication, and adaptive workflow execution.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\dynamic-skill-dispatcher"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "executor",
+      "displayName": "executor",
+      "description": "Production-ready code implementation agent that writes clean, maintainable, and well-tested code based on specifications. Handles feature development, refactoring, bug fixes, and API implementations with comprehensive error handling and documentation.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\executor"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\executor"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "figma",
+      "displayName": "figma",
+      "description": "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma MCP setup and troubleshooting.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\figma"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "figma-implement-design",
+      "displayName": "\"figma-implement-design\"",
+      "description": "\"Translate Figma nodes into production-ready code with 1:1 visual fidelity using the Figma MCP workflow (design context, screenshots, assets, and project-convention translation). Trigger when the user provides Figma URLs or node IDs, or asks to implement designs or components that must match Figma specs. Requires a working Figma MCP server connection.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\figma-implement-design"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "find-skills",
+      "displayName": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\find-skills"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\find-skills"
+        },
+        {
+          "source": "claudecode",
+          "path": "variants/claudecode",
+          "originPath": "C:\\Users\\downl\\.claude\\skills\\find-skills"
+        },
+        {
+          "source": "agents",
+          "path": "variants/agents",
+          "originPath": "C:\\Users\\downl\\.agents\\skills\\find-skills"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "gemini-cli-integration",
+      "displayName": "gemini-cli-integration",
+      "description": "Integrates Google Gemini CLI as a research engine through MCP/A2A/Skills architecture, providing streaming responses, markdown support, and intelligent task execution for enhanced research capabilities.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\gemini-cli-integration"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "gh-address-comments",
+      "displayName": "gh-address-comments",
+      "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\gh-address-comments"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "gh-fix-ci",
+      "displayName": "gh-fix-ci",
+      "description": "Inspect GitHub PR checks with gh, pull failing GitHub Actions logs, summarize failure context, then create a fix plan and implement after user approval. Use when a user asks to debug or fix failing PR CI/CD checks on GitHub Actions and wants a plan + code changes; for external checks (e.g., Buildkite), only report the details URL and mark them out of scope.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\gh-fix-ci"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "git4d-runtime",
+      "displayName": "git4d-runtime",
+      "description": "\"Git4D Runtime Checker - Validate Git for DevOps workflows with CUDA/SSE detection and runtime environment verification.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\git4d-runtime"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\git4d-runtime"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "git4d-schema",
+      "displayName": "git4d-schema",
+      "description": "\"Git4D Schema Auditor - Validate Git4D configurations, schema definitions, and DevOps pipeline integrity.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\git4d-schema"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\git4d-schema"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "jupyter-notebook",
+      "displayName": "\"jupyter-notebook\"",
+      "description": "\"Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\jupyter-notebook"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "llmops-manager",
+      "displayName": "llmops-manager",
+      "description": "LLMOps management and monitoring for Codex. This skill should be used when users need to manage model versions, monitor performance, optimize costs, or implement security hardening for LLM operations. Use for model versioning, prompt management, performance monitoring, cost optimization, security assessment, and observability.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\llmops-manager"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "migrate-to-skills",
+      "displayName": "migrate-to-skills",
+      "description": "Convert 'Applied intelligently' Cursor rules (.cursor/rules/*.mdc) and slash commands (.cursor/commands/*.md) to Agent Skills format (.cursor/skills/). Use when you want to migrate rules or commands to skills, convert .mdc rules to SKILL.md format, or consolidate commands into the skills directory.",
+      "variants": [
+        {
+          "source": "cursor-rules",
+          "path": "variants/cursor-rules",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\migrate-to-skills"
+        }
+      ],
+      "canonicalVariant": "cursor-rules"
+    },
+    {
+      "slug": "multi-agent-terminal-manager",
+      "displayName": "multi-agent-terminal-manager",
+      "description": "Multi-agent terminal coordination and conflict prevention system for Codex. This skill should be used when managing multiple AI agents, coordinating terminal processes, preventing merge conflicts, and orchestrating complex development workflows. Use for agent lifecycle management, task distribution, workflow automation, and collaborative development processes.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\multi-agent-terminal-manager"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "notion-knowledge-capture",
+      "displayName": "notion-knowledge-capture",
+      "description": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\notion-knowledge-capture"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "notion-meeting-intelligence",
+      "displayName": "notion-meeting-intelligence",
+      "description": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\notion-meeting-intelligence"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "notion-research-documentation",
+      "displayName": "notion-research-documentation",
+      "description": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\notion-research-documentation"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "notion-spec-to-implementation",
+      "displayName": "notion-spec-to-implementation",
+      "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\notion-spec-to-implementation"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "obsidian-knowledge",
+      "displayName": "Obsidian Knowledge Management",
+      "description": "Obsidianのような知識管理、Wikilink構文([[link]])による文書間リンク、バックリンク、タグ(#tag)抽出を扱うためのスキル。",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\obsidian-knowledge"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "orchestrator",
+      "displayName": "orchestrator",
+      "description": "Intelligent multi-agent workflow orchestrator that coordinates specialized Codex skills for complex task execution. Implements official OpenAI Agents SDK patterns including guardrails, handoffs, and worker agents with MCP-centric architecture for seamless integration.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\orchestrator"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\orchestrator"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "performance-analyst",
+      "displayName": "performance-analyst",
+      "description": "Investigate performance regressions using profiling artifacts, flamegraphs, and runtime metrics.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\performance-analyst"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\performance-analyst"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "performance-scout",
+      "displayName": "performance-scout",
+      "description": "Provide quick performance triage from logs, benchmarks, and runtime counters.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\performance-scout"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\performance-scout"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "perplexity-deep-research",
+      "displayName": "Perplexity DeepResearch",
+      "description": "脚注や参照情報の裏取り（ファクトチェック）を深掘りして行い、情報の正確性、最新性、信頼性を検証するスキル。",
+      "variants": [
+        {
+          "source": "agents",
+          "path": "variants/agents",
+          "originPath": "C:\\Users\\downl\\.agents\\skills\\perplexity-deep-research"
+        }
+      ],
+      "canonicalVariant": "agents"
+    },
+    {
+      "slug": "plan-mode",
+      "displayName": "plan-mode",
+      "description": "Create, manage, and update multi-step execution plans for complex tasks. Use when the user asks for a plan/roadmap/phases/checklist, or when work has multiple dependent steps, higher risk, or requires coordination. Skip for straightforward tasks.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\plan-mode"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\plan-mode"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "plan-mode-manager",
+      "displayName": "plan-mode-manager",
+      "description": "Plan mode management for Codex, similar to Cursor/ClaudeCode plan mode. This skill should be used when users need to create execution plans, manage complex multi-step tasks, or break down large projects into manageable phases. Use for task decomposition, execution planning, progress tracking, and collaborative planning workflows.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\plan-mode-manager"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "python-reviewer",
+      "displayName": "python-reviewer",
+      "description": "Python code review skill focused on quality, correctness, security, and framework best practices.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\python-reviewer"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\python-reviewer"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "qa-engineer",
+      "displayName": "qa-engineer",
+      "description": "QA engineering skill for test planning, test design, and quality risk assessment.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\qa-engineer"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\qa-engineer"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "qa-service",
+      "displayName": "qa-service",
+      "description": "Continuous Quality Assurance service agent that monitors development activities in real-time, automatically triggering quality analysis on code changes. Provides background processing for comprehensive QA validation across parallel development environments, ensuring consistent quality standards throughout the development lifecycle.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\qa-service"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\qa-service"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "qc-optimizer",
+      "displayName": "qc-optimizer",
+      "description": "\"Before merging to main, orchestrate full-stack QC: run unit/abnormal/comprehensive tests, apply statistical + quantum-inspired optimization heuristics, and log merge decisions.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\qc-optimizer"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\qc-optimizer"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "refactorer",
+      "displayName": "refactorer",
+      "description": "Refactor code to improve maintainability, performance, and readability. Identify code smells, extract reusable components, optimize algorithms, and reduce technical debt.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\refactorer"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\refactorer"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "remotion-best-practices",
+      "displayName": "remotion-best-practices",
+      "description": "Best practices for Remotion - Video creation in React",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\remotion-best-practices"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\remotion-best-practices"
+        },
+        {
+          "source": "agents",
+          "path": "variants/agents",
+          "originPath": "C:\\Users\\downl\\.agents\\skills\\remotion-best-practices"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "researcher",
+      "displayName": "researcher",
+      "description": "Deep research with multi-source validation, citation, and comprehensive reporting",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\researcher"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\researcher"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "sec-audit",
+      "displayName": "sec-audit",
+      "description": "Security audit with CVE scanning, dependency analysis, and vulnerability patching",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\sec-audit"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\sec-audit"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "shell",
+      "displayName": "shell",
+      "description": "Runs the rest of a /shell request as a literal shell command. Use only when the user explicitly invokes /shell and wants the following text executed directly in the terminal.",
+      "variants": [
+        {
+          "source": "cursor-rules",
+          "path": "variants/cursor-rules",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\shell"
+        }
+      ],
+      "canonicalVariant": "cursor-rules"
+    },
+    {
+      "slug": "skill-mcp-integration-manager",
+      "displayName": "skill-mcp-integration-manager",
+      "description": "Skill and MCP integration management for Codex. This skill should be used when users need to integrate skills with MCP servers, manage resources, or create execution environments. Use for skill development, MCP server integration, resource management, and tool orchestration.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\skill-mcp-integration-manager"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "sora",
+      "displayName": "\"sora\"",
+      "description": "\"Use when the user asks to generate, remix, poll, list, download, or delete Sora videos via OpenAI\\u2019s video API using the bundled CLI (`scripts/sora.py`), including requests like \\u201cgenerate AI video,\\u201d \\u201cSora,\\u201d \\u201cvideo remix,\\u201d \\u201cdownload video/thumbnail/spritesheet,\\u201d and batch video generation; requires `OPENAI_API_KEY` and Sora API access.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\sora"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "specstory-guard",
+      "displayName": "specstory-guard",
+      "description": "Install a pre-commit hook that scans .specstory/history for secrets before commits. Run when user says \"set up secret scanning\", \"install specstory guard\", \"protect my history\", or \"check for secrets\".",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-guard"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-guard"
+        },
+        {
+          "source": "claudecode",
+          "path": "variants/claudecode",
+          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-guard"
+        },
+        {
+          "source": "agents",
+          "path": "variants/agents",
+          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-guard"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "specstory-link-trail",
+      "displayName": "specstory-link-trail",
+      "description": "Track all URLs fetched during SpecStory AI coding sessions. Run when user says \"show my link trail\", \"what URLs did I visit\", \"list fetched links\", or \"show web fetches\".",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-link-trail"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-link-trail"
+        },
+        {
+          "source": "claudecode",
+          "path": "variants/claudecode",
+          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-link-trail"
+        },
+        {
+          "source": "agents",
+          "path": "variants/agents",
+          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-link-trail"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "specstory-organize",
+      "displayName": "specstory-organize",
+      "description": "Organize SpecStory AI coding sessions in .specstory/history into year/month folders. Run when user says \"organize my history\", \"clean up specstory\", \"sort my sessions\", or \"organize specstory files\".",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-organize"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-organize"
+        },
+        {
+          "source": "claudecode",
+          "path": "variants/claudecode",
+          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-organize"
+        },
+        {
+          "source": "agents",
+          "path": "variants/agents",
+          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-organize"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "specstory-project-stats",
+      "displayName": "specstory-project-stats",
+      "description": "Fetch project statistics from SpecStory Cloud. Run when user says \"get project stats\", \"show SpecStory stats\", \"project statistics\", \"how many sessions\", or \"SpecStory metrics\".",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-project-stats"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-project-stats"
+        },
+        {
+          "source": "claudecode",
+          "path": "variants/claudecode",
+          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-project-stats"
+        },
+        {
+          "source": "agents",
+          "path": "variants/agents",
+          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-project-stats"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "specstory-session-summary",
+      "displayName": "specstory-session-summary",
+      "description": "Summarize recent SpecStory AI coding sessions in standup format. Use when the user wants to review sessions from .specstory/history, prepare for standups, track work progress, or understand what was accomplished.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-session-summary"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-session-summary"
+        },
+        {
+          "source": "claudecode",
+          "path": "variants/claudecode",
+          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-session-summary"
+        },
+        {
+          "source": "agents",
+          "path": "variants/agents",
+          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-session-summary"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "specstory-yak",
+      "displayName": "specstory-yak",
+      "description": "Analyze your SpecStory AI coding sessions in .specstory/history for yak shaving - when your initial goal got derailed into rabbit holes. Run when user says \"analyze my yak shaving\", \"check for rabbit holes\", \"how distracted was I\", or \"yak shave score\".",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-yak"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-yak"
+        },
+        {
+          "source": "claudecode",
+          "path": "variants/claudecode",
+          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-yak"
+        },
+        {
+          "source": "agents",
+          "path": "variants/agents",
+          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-yak"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "terminal-integration-manager",
+      "displayName": "terminal-integration-manager",
+      "description": "ClaudeCode-style terminal integration with intelligent command execution, output processing, and environment management. This skill should be used when executing terminal commands with context awareness, processing command outputs, managing development environments, or handling command failures with automatic recovery. Use for build automation, testing, deployment, dependency management, and development workflow orchestration.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\terminal-integration-manager"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "test-gen",
+      "displayName": "test-gen",
+      "description": "Generate comprehensive test suites including unit, integration, and e2e tests",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\test-gen"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\test-gen"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "test-tui",
+      "displayName": "test-tui",
+      "description": "Guide for testing Codex TUI interactively",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\test-tui"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\test-tui"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "ts-reviewer",
+      "displayName": "ts-reviewer",
+      "description": "TypeScript review skill focused on type safety, API contracts, and runtime reliability.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\ts-reviewer"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\ts-reviewer"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "unity-reviewer",
+      "displayName": "unity-reviewer",
+      "description": "Unity C# review skill for gameplay code, architecture, and performance best practices.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\unity-reviewer"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\unity-reviewer"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "update-cursor-settings",
+      "displayName": "update-cursor-settings",
+      "description": "Modify Cursor/VSCode user settings in settings.json. Use when you want to change editor settings, preferences, configuration, themes, font size, tab size, format on save, auto save, keybindings, or any settings.json values.",
+      "variants": [
+        {
+          "source": "cursor-rules",
+          "path": "variants/cursor-rules",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\update-cursor-settings"
+        }
+      ],
+      "canonicalVariant": "cursor-rules"
+    },
+    {
+      "slug": "vrchat-dev",
+      "displayName": "vrchat-dev",
+      "description": "\"VRChat world and avatar development skill with UdonSharp, modularavatar, and PhysBones support. Automates VRChat SDK3 development workflows.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\vrchat-dev"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\vrchat-dev"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "web-search-deepresearch",
+      "displayName": "web-search-deepresearch",
+      "description": "Transforms basic web search into comprehensive deep research with ClaudeCowork integration, multi-model AI intelligence (Manus/Genspark style), adaptive learning, and enhanced user experience. Combines Cowork productivity automation with advanced AI research capabilities for intelligent, autonomous task execution across research, analysis, and productivity domains.",
+      "variants": [
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\web-search-deepresearch"
+        }
+      ],
+      "canonicalVariant": "cursor"
+    },
+    {
+      "slug": "worktree-manager",
+      "displayName": "worktree-manager",
+      "description": "Advanced Git worktree management agent that orchestrates parallel development environments with integrated quality assurance and automated workflow management. Enables concurrent feature development, isolated testing environments, and seamless integration with CI/CD pipelines.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\worktree-manager"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\worktree-manager"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "yaraikata-memo",
+      "displayName": "yaraikata-memo",
+      "description": "Run long tasks with regular simple updates and an easy explanation. Use when work will not finish quickly, the user wants check-ins every 5 minutes, wants a plain summary with an expected time, and wants clear guidance if something goes wrong.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\yaraikata-memo"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "yolo-auto",
+      "displayName": "yolo-auto",
+      "description": "\"YOLO (You Only Live Once) full-stack automation skill with OpenClaw MCP bridge and GPU model selection.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\yolo-auto"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\yolo-auto"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "yukkuri-movie",
+      "displayName": "yukkuri-movie",
+      "description": "\"ゆっくりMovieMaker (YMM4) video production skill with character animation, scene management, and MIDI integration.\"",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\yukkuri-movie"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\yukkuri-movie"
+        }
+      ],
+      "canonicalVariant": "codex"
+    }
+  ]
+}

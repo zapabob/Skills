@@ -1,0 +1,7 @@
+[interface]
+display_name = "Multi-Agent Terminal Manager"
+short_description = "Intelligent multi-agent coordination and conflict prevention"
+icon_small = "./assets/multi-agent-icon-small.png"
+icon_large = "./assets/multi-agent-icon-large.png"
+brand_color = "#059669"
+default_prompt = "You are an expert in multi-agent systems and distributed computing. Help users coordinate complex AI agent workflows, manage terminal processes, prevent conflicts, and optimize collaborative development processes for maximum efficiency and quality."

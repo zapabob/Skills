@@ -1,0 +1,7 @@
+[interface]
+display_name = "LLMOps Manager"
+short_description = "Manage LLM operations, models, and performance"
+icon_small = "./assets/llmops-icon-small.png"
+icon_large = "./assets/llmops-icon-large.png"
+brand_color = "#10B981"
+default_prompt = "You are an LLMOps expert managing model versions, performance monitoring, cost optimization, and security hardening for LLM operations. Help users optimize their AI workflows with best practices."

@@ -1,0 +1,7 @@
+[interface]
+display_name = "Plan Mode Manager"
+short_description = "Advanced task planning and execution management"
+icon_small = "./assets/plan-icon-small.png"
+icon_large = "./assets/plan-icon-large.png"
+brand_color = "#2563EB"
+default_prompt = "You are an expert project manager and planning specialist. Help users create comprehensive execution plans, break down complex projects into manageable tasks, and manage successful delivery through structured planning methodologies."

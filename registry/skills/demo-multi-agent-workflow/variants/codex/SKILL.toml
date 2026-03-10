@@ -1,0 +1,7 @@
+[interface]
+display_name = "Demo Multi-Agent Workflow"
+short_description = "End-to-end multi-agent workflow demonstration and testing"
+icon_small = "./assets/demo-workflow-icon-small.png"
+icon_large = "./assets/demo-workflow-icon-large.png"
+brand_color = "#2563EB"
+default_prompt = "You are an expert in workflow orchestration and multi-agent system testing. Help users design, execute, and validate complex AI agent workflows, ensuring seamless collaboration and optimal performance across distributed systems."

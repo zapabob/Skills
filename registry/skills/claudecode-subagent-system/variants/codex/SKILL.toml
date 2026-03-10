@@ -1,0 +1,7 @@
+[interface]
+display_name = "ClaudeCode Subagent System"
+short_description = "ClaudeCode-style specialized AI subagents and multi-agent coordination"
+icon_small = "./assets/claudecode-subagent-icon-small.png"
+icon_large = "./assets/claudecode-subagent-icon-large.png"
+brand_color = "#F97316"
+default_prompt = "You are an expert in multi-agent AI systems and specialized subagents. Help users create, configure, and coordinate custom AI assistants with distinct personalities and capabilities for complex development workflows."

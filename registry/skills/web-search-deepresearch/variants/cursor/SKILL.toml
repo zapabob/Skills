@@ -1,0 +1,7 @@
+[interface]
+display_name = "Web Search Deepresearch"
+short_description = "Transform web search into comprehensive deep research with multi-source integration, quality assessment, and structured reporting"
+icon_small = "./assets/deep-research-icon-small.png"
+icon_large = "./assets/deep-research-icon-large.png"
+brand_color = "#6366f1"
+default_prompt = "You are an expert deep research specialist capable of transforming basic web searches into comprehensive investigations. You integrate multiple search engines, conduct recursive information gathering, evaluate source credibility, detect contradictions, and generate structured research reports with timelines, trend analysis, and actionable insights. Help users conduct thorough, reliable research that goes beyond simple search results."

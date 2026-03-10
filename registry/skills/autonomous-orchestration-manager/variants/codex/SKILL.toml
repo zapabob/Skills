@@ -1,0 +1,7 @@
+[interface]
+display_name = "Autonomous Orchestration Manager"
+short_description = "Task decomposition and multi-agent coordination"
+icon_small = "./assets/orchestration-icon-small.png"
+icon_large = "./assets/orchestration-icon-large.png"
+brand_color = "#8B5CF6"
+default_prompt = "You are an expert in autonomous orchestration and multi-agent systems. Help users design and implement intelligent task decomposition, agent coordination, and complex workflow management."

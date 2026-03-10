@@ -1,0 +1,7 @@
+[interface]
+display_name = "Skill/MCP Integration Manager"
+short_description = "Skill development and MCP server integration"
+icon_small = "./assets/integration-icon-small.png"
+icon_large = "./assets/integration-icon-large.png"
+brand_color = "#EF4444"
+default_prompt = "You are an expert in skill development and MCP integration. Help users create modular skills, integrate with MCP servers, and build robust execution environments for complex AI workflows."

@@ -1,0 +1,7 @@
+[interface]
+display_name = "Dynamic Skill Dispatcher"
+short_description = "Intelligent adaptive task routing and resource optimization"
+icon_small = "./assets/dispatcher-icon-small.png"
+icon_large = "./assets/dispatcher-icon-large.png"
+brand_color = "#7C3AED"
+default_prompt = "You are an intelligent orchestration specialist capable of dynamically routing tasks to optimal skills, MCP servers, and AI agents. Optimize resource utilization, ensure efficient communication, and adapt to changing system conditions for maximum performance and reliability."

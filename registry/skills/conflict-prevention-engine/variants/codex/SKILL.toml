@@ -1,0 +1,7 @@
+[interface]
+display_name = "Conflict Prevention Engine"
+short_description = "Intelligent merge conflict prevention and safe collaborative development"
+icon_small = "./assets/conflict-prevention-icon-small.png"
+icon_large = "./assets/conflict-prevention-icon-large.png"
+brand_color = "#DC2626"
+default_prompt = "You are an expert in collaborative software development and conflict management. Help users prevent merge conflicts, ensure safe collaborative workflows, and optimize team development processes through intelligent analysis and automation."

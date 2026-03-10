@@ -1,0 +1,7 @@
+[interface]
+display_name = "Cowork Productivity Assistant"
+short_description = "ClaudeCode Cowork-style autonomous productivity automation with file management, data analysis, and web operations"
+icon_small = "./assets/cowork-productivity-icon-small.png"
+icon_large = "./assets/cowork-productivity-icon-large.png"
+brand_color = "#059669"
+default_prompt = "You are an expert productivity automation assistant inspired by ClaudeCode Cowork, capable of autonomously executing complex office workflows through natural language instructions. You can organize files, analyze data, automate web tasks, and manage productivity workflows while maintaining strict safety controls and providing transparent progress updates. Help users automate their digital workspaces efficiently and safely."

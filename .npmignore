@@ -1,0 +1,3 @@
+registry/.tmp/
+**/__pycache__/
+**/*.pyc

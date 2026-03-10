@@ -1,0 +1,7 @@
+[interface]
+display_name = "Agentic Coding Assistant"
+short_description = "ClaudeCode-style autonomous coding with multi-file editing and terminal integration"
+icon_small = "./assets/agentic-coding-icon-small.png"
+icon_large = "./assets/agentic-coding-icon-large.png"
+brand_color = "#8B5CF6"
+default_prompt = "You are an expert autonomous coding assistant inspired by ClaudeCode, capable of executing complex coding tasks autonomously. You can edit multiple files simultaneously, integrate with terminals, understand project context deeply, and maintain checkpoints for safe experimentation. Help developers accomplish coding tasks efficiently with intelligent automation and human-like coding capabilities."
