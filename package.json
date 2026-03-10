@@ -1,5 +1,5 @@
 {
-  "name": "@downl/agent-skill-unifier",
+  "name": "@zapabob/skills",
   "version": "0.1.0",
   "description": "Portable multi-agent skill catalog and installer for Codex, ClaudeCode, Cursor, Antigravity, and Openclaw.",
   "type": "module",
@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/downl/agent-skill-unifier.git"
+    "url": "git+https://github.com/zapabob/Skills.git"
   },
-  "homepage": "https://github.com/downl/agent-skill-unifier#readme",
+  "homepage": "https://github.com/zapabob/Skills#readme",
   "bugs": {
-    "url": "https://github.com/downl/agent-skill-unifier/issues"
+    "url": "https://github.com/zapabob/Skills/issues"
   },
-  "author": "downl",
+  "author": "zapabob",
   "engines": {
     "node": ">=20"
   },

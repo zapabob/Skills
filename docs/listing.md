@@ -2,7 +2,7 @@
 
 ## Value Proposition
 
-`@downl/agent-skill-unifier` turns scattered local agent skills into one portable, target-aware skill catalog that can be installed with `npx`.
+`@zapabob/skills` turns scattered local agent skills into one portable, target-aware skill catalog that can be installed with `npx`.
 
 ## Supported Targets
 

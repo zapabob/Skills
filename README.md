@@ -1,4 +1,4 @@
-# @downl/agent-skill-unifier
+# @zapabob/skills
 
 Portable multi-agent skill catalog and installer for Codex, ClaudeCode, Cursor, Antigravity, and Openclaw.
 
@@ -18,20 +18,20 @@ Portable multi-agent skill catalog and installer for Codex, ClaudeCode, Cursor, 
 ## Quick Start
 
 ```bash
-npx @downl/agent-skill-unifier list
-npx @downl/agent-skill-unifier install architect --target codex
-npx @downl/agent-skill-unifier install architect --target cursor
-npx @downl/agent-skill-unifier install --all --target claudecode
+npx @zapabob/skills list
+npx @zapabob/skills install architect --target codex
+npx @zapabob/skills install architect --target cursor
+npx @zapabob/skills install --all --target claudecode
 ```
 
 ## Commands
 
 ```bash
-npx @downl/agent-skill-unifier discover
-npx @downl/agent-skill-unifier import-local
-npx @downl/agent-skill-unifier list
-npx @downl/agent-skill-unifier install <skill...> --target <target>
-npx @downl/agent-skill-unifier install --all --target <target>
+npx @zapabob/skills discover
+npx @zapabob/skills import-local
+npx @zapabob/skills list
+npx @zapabob/skills install <skill...> --target <target>
+npx @zapabob/skills install --all --target <target>
 ```
 
 ## Install Behavior
@@ -58,15 +58,15 @@ Notes:
 For users:
 
 ```bash
-npx @downl/agent-skill-unifier list
-npx @downl/agent-skill-unifier install find-skills --target claudecode
+npx @zapabob/skills list
+npx @zapabob/skills install find-skills --target claudecode
 ```
 
 For catalog maintainers:
 
 ```bash
 npm run import-local
-npx @downl/agent-skill-unifier list
+npx @zapabob/skills list
 npm pack
 ```
 
