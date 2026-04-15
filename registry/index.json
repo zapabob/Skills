@@ -253,6 +253,29 @@
       "canonicalVariant": "codex"
     },
     {
+      "slug": "deepresearch-defense-standard",
+      "displayName": "deepresearch-defense-standard",
+      "description": "Use when a task needs web search, the latest or current information, primary-source-backed claims, direct quotes, official documentation, security-sensitive research, CVE or zero-day review, supply-chain risk checks, or any answer that should not rely on unstable memory alone.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\downl\\.codex\\skills\\deepresearch-defense-standard"
+        },
+        {
+          "source": "cursor",
+          "path": "variants/cursor",
+          "originPath": "C:\\Users\\downl\\.cursor\\skills\\deepresearch-defense-standard"
+        },
+        {
+          "source": "agents",
+          "path": "variants/agents",
+          "originPath": "C:\\Users\\downl\\.agents\\skills\\deepresearch-defense-standard"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
       "slug": "demo-multi-agent-workflow",
       "displayName": "demo-multi-agent-workflow",
       "description": "Complete multi-agent workflow demonstration and testing system for Codex. This skill should be used when demonstrating end-to-end AI agent collaboration, testing complex workflows, or showcasing integrated development processes. Use for workflow validation, performance benchmarking, integration testing, and collaborative AI demonstrations.",
