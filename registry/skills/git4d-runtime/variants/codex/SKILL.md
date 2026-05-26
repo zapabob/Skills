@@ -1,6 +1,6 @@
 ---
 name: git4d-runtime
-description: "Git4D Runtime Checker - Validate Git for DevOps workflows with CUDA/SSE detection and runtime environment verification."
+description: "Git4D Runtime Checker - Validate Git/CUDA/SSE runtime state and export KAMUI4D-compatible Git graph JSON for Codex/Hermes workflows."
 ---
 
 # Git4D Runtime Checker Agent Skill
@@ -17,6 +17,22 @@ Git4D Runtime Checker validates Git for DevOps workflows with CUDA/SSE detection
 - **Dependency Check**: Validate required dependencies
 - **Configuration Audit**: Review Git and system configurations
 - **Performance Baseline**: Establish performance benchmarks
+- **KAMUI4D Graph Export**: Export Git commits, parent edges, and touched files as portable `git4d.graph.v1` JSON for KAMUI4D/Hermes/Codex consumers
+
+## Implemented Local Tools
+
+Run the dependency-free checker from any repository:
+
+```bash
+python scripts/git4d_runtime_check.py --repo . --out git4d-results/runtime-report.json --graph-out git4d-results/kamui4d-graph.json
+```
+
+Outputs:
+
+- `git4d-results/runtime-report.json`: Git, Codex, Hermes, uv, Python, Node, CUDA/NVIDIA, CPU feature hints, worktree state, and timing checks
+- `git4d-results/kamui4d-graph.json`: Commit/file graph with 4D coordinates (`x`, `y`, `z`, `t`) for graph-based visualization
+
+Use `--no-write --format json` for dry-run automation.
 
 ## Tools Required
 

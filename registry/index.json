@@ -477,7 +477,7 @@
     {
       "slug": "git4d-runtime",
       "displayName": "git4d-runtime",
-      "description": "\"Git4D Runtime Checker - Validate Git for DevOps workflows with CUDA/SSE detection and runtime environment verification.\"",
+      "description": "Git4D Runtime Checker - Validate Git/CUDA/SSE runtime state and export KAMUI4D-compatible Git graph JSON for Codex/Hermes workflows.",
       "variants": [
         {
           "source": "codex",
@@ -495,7 +495,7 @@
     {
       "slug": "git4d-schema",
       "displayName": "git4d-schema",
-      "description": "\"Git4D Schema Auditor - Validate Git4D configurations, schema definitions, and DevOps pipeline integrity.\"",
+      "description": "Git4D Schema Auditor - Validate .git4d configuration, Codex/Hermes/KAMUI4D integration declarations, and graph export contracts.",
       "variants": [
         {
           "source": "codex",
@@ -506,6 +506,19 @@
           "source": "cursor",
           "path": "variants/cursor",
           "originPath": "C:\\Users\\downl\\.cursor\\skills\\git4d-schema"
+        }
+      ],
+      "canonicalVariant": "codex"
+    },
+    {
+      "slug": "human-memory-emulation",
+      "displayName": "human-memory-emulation",
+      "description": "Build, install, enable, operate, or debug a Hermes/Codex memory system that mimics human memory with cue encoding, local storage, retrieval, rehearsal, and an Ebbinghaus forgetting curve. Use when the user asks for human-like memory, memory encoding/storage/search, forgetting-curve behavior, Ebbinghaus memory, or the Hermes ebbinghaus memory provider/plugin.",
+      "variants": [
+        {
+          "source": "codex",
+          "path": "variants/codex",
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\human-memory-emulation"
         }
       ],
       "canonicalVariant": "codex"

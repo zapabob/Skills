@@ -1,0 +1,7 @@
+interface:
+  display_name: "Human Memory Emulation"
+  short_description: "Operate local Ebbinghaus memory for Hermes."
+  default_prompt: "Use $human-memory-emulation to install, verify, or tune the Hermes Ebbinghaus memory provider."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,7 +1,7 @@
 ---
 name: git4d-schema
-description: "Git4D Schema Auditor - Validate Git4D configurations, schema definitions, and DevOps pipeline integrity."
-short_description: Git4D Schema Auditor - Validate Git4D configurations, schema definitions, and DevOps pipeline integrity.
+description: "Git4D Schema Auditor - Validate .git4d configuration, Codex/Hermes/KAMUI4D integration declarations, and graph export contracts."
+short_description: Git4D config audit for Codex, Hermes, and KAMUI4D graph exports.
 ---
 
 # Git4D Schema Auditor Agent Skill
@@ -20,6 +20,23 @@ Git4D Schema Auditor validates Git4D configurations, schema definitions, and Dev
 - **Best Practices Enforcement**: Ensure Git4D best practices
 - **Version Compatibility**: Check schema version compatibility
 - **Documentation Validation**: Validate documentation consistency
+- **KAMUI4D Contract Check**: Verify Codex, Hermes, and KAMUI4D integration declarations and graph export paths
+
+## Implemented Local Tools
+
+Audit an existing repository:
+
+```bash
+python scripts/git4d_schema_audit.py --repo . --out git4d-results/schema-report.json
+```
+
+Create a baseline `.git4d` contract when the repository has none:
+
+```bash
+python scripts/git4d_schema_audit.py --repo . --init
+```
+
+The baseline writes `.git4drc`, `.git4d/configs/pipeline.json`, and `.git4d/configs/runtime.json`. JSON is the canonical strict format. YAML is audited with PyYAML when installed, and otherwise receives conservative syntax checks with an explicit warning.
 
 ## Cursor Tools
 
