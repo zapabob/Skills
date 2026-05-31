@@ -1,6 +1,34 @@
 {
-  "generatedAt": "2026-03-10T09:00:13.096Z",
+  "generatedAt": "2026-05-31T09:20:20.480Z",
   "skills": [
+    {
+      "slug": "1password",
+      "displayName": "1password",
+      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in, and reading/injecting secrets for commands.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\security\\1password",
+          "originRelativePath": "security/1password"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "3-statement-model",
+      "displayName": "3-statement-model",
+      "description": "Build fully-integrated 3-statement models (IS, BS, CF) in Excel with working capital schedules, D&A roll-forwards, debt schedule, and the plugs that make cash and retained earnings tie. Pairs with excel-author.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\finance\\3-statement-model",
+          "originRelativePath": "finance/3-statement-model"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
     {
       "slug": "a2a-communication-manager",
       "displayName": "a2a-communication-manager",
@@ -9,10 +37,39 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\a2a-communication-manager"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\a2a-communication-manager",
+          "originRelativePath": "a2a-communication-manager"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "accelerate",
+      "displayName": "huggingface-accelerate",
+      "description": "Simplest distributed training API. 4 lines to add distributed support to any PyTorch script. Unified API for DeepSpeed/FSDP/Megatron/DDP. Automatic device placement, mixed precision (FP16/BF16/FP8). Interactive config, single launch command. HuggingFace ecosystem standard.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\accelerate",
+          "originRelativePath": "mlops/accelerate"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "adversarial-ux-test",
+      "displayName": "adversarial-ux-test",
+      "description": "Roleplay the most difficult, tech-resistant user for your product. Browse the app as that persona, find every UX pain point, then filter complaints through a pragmatism layer to separate real problems from noise. Creates actionable tickets from genuine issues only.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\dogfood\\adversarial-ux-test",
+          "originRelativePath": "dogfood/adversarial-ux-test"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "agentic-coding-assistant",
@@ -22,10 +79,81 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\agentic-coding-assistant"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\agentic-coding-assistant",
+          "originRelativePath": "agentic-coding-assistant"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "agentmail",
+      "displayName": "agentmail",
+      "description": "Give the agent its own dedicated email inbox via AgentMail. Send, receive, and manage email autonomously using agent-owned email addresses (e.g. hermes-agent@agentmail.to).",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\email\\agentmail",
+          "originRelativePath": "email/agentmail"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "airtable",
+      "displayName": "airtable",
+      "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\productivity\\airtable",
+          "originRelativePath": "productivity/airtable"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "antigravity-cli",
+      "displayName": "antigravity-cli",
+      "description": "\"Operate the Antigravity CLI (agy): plugins, auth, sandbox.\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\autonomous-ai-agents\\antigravity-cli",
+          "originRelativePath": "autonomous-ai-agents/antigravity-cli"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "apple-notes",
+      "displayName": "apple-notes",
+      "description": "\"Manage Apple Notes via memo CLI: create, search, edit.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\apple\\apple-notes",
+          "originRelativePath": "apple/apple-notes"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "apple-reminders",
+      "displayName": "apple-reminders",
+      "description": "\"Apple Reminders via remindctl: add, list, complete.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\apple\\apple-reminders",
+          "originRelativePath": "apple/apple-reminders"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "architect",
@@ -35,15 +163,87 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\architect"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\architect",
+          "originRelativePath": "architect"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\architect"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\architect",
+          "originRelativePath": "zapabob/architect"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "architecture-diagram",
+      "displayName": "architecture-diagram",
+      "description": "\"Dark-themed SVG architecture/cloud/infra diagrams as HTML.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\architecture-diagram",
+          "originRelativePath": "creative/architecture-diagram"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "arxiv",
+      "displayName": "arxiv",
+      "description": "\"Search arXiv papers by keyword, author, category, or ID.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\research\\arxiv",
+          "originRelativePath": "research/arxiv"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "ascii-art",
+      "displayName": "ascii-art",
+      "description": "\"ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\ascii-art",
+          "originRelativePath": "creative/ascii-art"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "ascii-video",
+      "displayName": "ascii-video",
+      "description": "\"ASCII video: convert video/audio to colored ASCII MP4/GIF.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\ascii-video",
+          "originRelativePath": "creative/ascii-video"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "audiocraft",
+      "displayName": "audiocraft-audio-generation",
+      "description": "\"AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\mlops\\models\\audiocraft",
+          "originRelativePath": "mlops/models/audiocraft"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "autonomous-orchestration-manager",
@@ -53,10 +253,95 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\autonomous-orchestration-manager"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\autonomous-orchestration-manager",
+          "originRelativePath": "autonomous-orchestration-manager"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "axolotl",
+      "displayName": "axolotl",
+      "description": "\"Axolotl: YAML LLM fine-tuning (LoRA, DPO, GRPO).\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\training\\axolotl",
+          "originRelativePath": "mlops/training/axolotl"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "baoyu-article-illustrator",
+      "displayName": "baoyu-article-illustrator",
+      "description": "\"Article illustrations: type × style × palette consistency.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\baoyu-article-illustrator",
+          "originRelativePath": "creative/baoyu-article-illustrator"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "baoyu-comic",
+      "displayName": "baoyu-comic",
+      "description": "\"Knowledge comics (知识漫画): educational, biography, tutorial.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\baoyu-comic",
+          "originRelativePath": "creative/baoyu-comic"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "baoyu-infographic",
+      "displayName": "baoyu-infographic",
+      "description": "\"Infographics: 21 layouts x 21 styles (信息图, 可视化).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\baoyu-infographic",
+          "originRelativePath": "creative/baoyu-infographic"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "bioinformatics",
+      "displayName": "bioinformatics",
+      "description": "Gateway to 400+ bioinformatics skills from bioSkills and ClawBio. Covers genomics, transcriptomics, single-cell, variant calling, pharmacogenomics, metagenomics, structural biology, and more. Fetches domain-specific reference material on demand.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\bioinformatics",
+          "originRelativePath": "research/bioinformatics"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "blackbox",
+      "displayName": "blackbox",
+      "description": "Delegate coding tasks to Blackbox AI CLI agent. Multi-model agent with built-in judge that runs tasks through multiple LLMs and picks the best result. Requires the blackbox CLI and a Blackbox AI API key.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\autonomous-ai-agents\\blackbox",
+          "originRelativePath": "autonomous-ai-agents/blackbox"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "blender-cad",
@@ -66,15 +351,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\blender-cad"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\blender-cad",
+          "originRelativePath": "blender-cad"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\blender-cad"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\blender-cad",
+          "originRelativePath": "zapabob/blender-cad"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "blender-mcp",
+      "displayName": "blender-mcp",
+      "description": "Control Blender directly from Hermes via socket connection to the blender-mcp addon. Create 3D objects, materials, animations, and run arbitrary Blender Python (bpy) code. Use when user wants to create or modify anything in Blender.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\creative\\blender-mcp",
+          "originRelativePath": "creative/blender-mcp"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "blogwatcher",
+      "displayName": "blogwatcher",
+      "description": "\"Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\research\\blogwatcher",
+          "originRelativePath": "research/blogwatcher"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "build-manager",
@@ -84,15 +399,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\build-manager"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\build-manager",
+          "originRelativePath": "build-manager"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\build-manager"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\build-manager",
+          "originRelativePath": "zapabob/build-manager"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "canvas",
+      "displayName": "canvas",
+      "description": "Canvas LMS integration — fetch enrolled courses and assignments using API token authentication.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\productivity\\canvas",
+          "originRelativePath": "productivity/canvas"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "channel-readiness",
+      "displayName": "hypura-channel-readiness",
+      "description": "Diagnose LINE and Telegram credential readiness versus live roundtrip readiness through Hypura Harness without exposing tokens or raw routing ids.",
+      "variants": [
+        {
+          "source": "hermes-agent-vendor",
+          "path": "variants/hermes-agent-vendor",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\vendor\\openclaw-mirror\\extensions\\hypura-harness\\skills\\channel-readiness",
+          "originRelativePath": "channel-readiness"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-vendor"
     },
     {
       "slug": "chatgpt-apps",
@@ -102,10 +447,25 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\chatgpt-apps"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\chatgpt-apps",
+          "originRelativePath": "chatgpt-apps"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "chroma",
+      "displayName": "chroma",
+      "description": "Open-source embedding database for AI applications. Store embeddings and metadata, perform vector and full-text search, filter by metadata. Simple 4-function API. Scales from notebooks to production clusters. Use for semantic search, RAG applications, or document retrieval. Best for local development and open-source projects.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\chroma",
+          "originRelativePath": "mlops/chroma"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "cicd-integration",
@@ -115,15 +475,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\cicd-integration"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\cicd-integration",
+          "originRelativePath": "cicd-integration"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\cicd-integration"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\cicd-integration",
+          "originRelativePath": "zapabob/cicd-integration"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "claude-code",
+      "displayName": "claude-code",
+      "description": "\"Delegate coding to Claude Code CLI (features, PRs).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\autonomous-ai-agents\\claude-code",
+          "originRelativePath": "autonomous-ai-agents/claude-code"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "claude-design",
+      "displayName": "claude-design",
+      "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\claude-design",
+          "originRelativePath": "creative/claude-design"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "claudecode-subagent-system",
@@ -133,10 +523,39 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\claudecode-subagent-system"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\claudecode-subagent-system",
+          "originRelativePath": "claudecode-subagent-system"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "cli",
+      "displayName": "inference-sh-cli",
+      "description": "\"Run 150+ AI apps via inference.sh CLI (infsh) — image generation, video creation, LLMs, search, 3D, social automation. Uses the terminal tool. Triggers: inference.sh, infsh, ai apps, flux, veo, image generation, video generation, seedream, seedance, tavily\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\devops\\cli",
+          "originRelativePath": "devops/cli"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "clip",
+      "displayName": "clip",
+      "description": "OpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vision-language tasks without fine-tuning. Best for general-purpose image understanding.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\clip",
+          "originRelativePath": "mlops/clip"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "code-reviewer",
@@ -146,15 +565,59 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\code-reviewer"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\code-reviewer",
+          "originRelativePath": "code-reviewer"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\code-reviewer"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\code-reviewer",
+          "originRelativePath": "zapabob/code-reviewer"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "code-wiki",
+      "displayName": "code-wiki",
+      "description": "\"Generate wiki docs + Mermaid diagrams for any codebase.\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\software-development\\code-wiki",
+          "originRelativePath": "software-development/code-wiki"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "codebase-inspection",
+      "displayName": "codebase-inspection",
+      "description": "\"Inspect codebases w/ pygount: LOC, languages, ratios.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\github\\codebase-inspection",
+          "originRelativePath": "github/codebase-inspection"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "codex",
+      "displayName": "codex",
+      "description": "\"Delegate coding to OpenAI Codex CLI (features, PRs).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\autonomous-ai-agents\\codex",
+          "originRelativePath": "autonomous-ai-agents/codex"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "codex-mcp-researcher",
@@ -164,15 +627,59 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\codex-mcp-researcher"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\codex-mcp-researcher",
+          "originRelativePath": "codex-mcp-researcher"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\codex-mcp-researcher"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\codex-mcp-researcher",
+          "originRelativePath": "zapabob/codex-mcp-researcher"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "comfyui",
+      "displayName": "comfyui",
+      "description": "\"Generate images, video, and audio with ComfyUI — install, launch, manage nodes/models, run workflows with parameter injection. Uses the official comfy-cli for lifecycle and direct REST/WebSocket API for execution.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\comfyui",
+          "originRelativePath": "creative/comfyui"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "comps-analysis",
+      "displayName": "comps-analysis",
+      "description": "Build comparable company analysis in Excel — operating metrics, valuation multiples, statistical benchmarking vs peer sets. Pairs with excel-author. Use for public-company valuation, IPO pricing, sector benchmarking, or outlier detection.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\finance\\comps-analysis",
+          "originRelativePath": "finance/comps-analysis"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "concept-diagrams",
+      "displayName": "concept-diagrams",
+      "description": "Generate flat, minimal light/dark-aware SVG diagrams as standalone HTML files, using a unified educational visual language with 9 semantic color ramps, sentence-case typography, and automatic dark mode. Best suited for educational and non-software visuals — physics setups, chemistry mechanisms, math curves, physical objects (aircraft, turbines, smartphones, mechanical watches), anatomy, floor plans, cross-sections, narrative journeys (lifecycle of X, process of Y), hub-spoke system integrations (smart city, IoT), and exploded layer views. If a more specialized skill exists for the subject (dedicated software/cloud architecture, hand-drawn sketches, animated explainers, etc.), prefer that — otherwise this skill can also serve as a general-purpose SVG diagram fallback with a clean educational look. Ships with 15 example diagrams.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\creative\\concept-diagrams",
+          "originRelativePath": "creative/concept-diagrams"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "conflict-prevention-engine",
@@ -182,7 +689,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\conflict-prevention-engine"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\conflict-prevention-engine",
+          "originRelativePath": "conflict-prevention-engine"
         }
       ],
       "canonicalVariant": "codex"
@@ -195,7 +703,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\cowork-productivity-assistant"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\cowork-productivity-assistant",
+          "originRelativePath": "cowork-productivity-assistant"
         }
       ],
       "canonicalVariant": "codex"
@@ -206,12 +715,13 @@
       "description": "Create Cursor rules for persistent AI guidance. Use when you want to create a rule, add coding standards, set up project conventions, configure file-specific patterns, create RULE.md files, or asks about .cursor/rules/ or AGENTS.md.",
       "variants": [
         {
-          "source": "cursor-rules",
-          "path": "variants/cursor-rules",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\create-rule"
+          "source": "cursor-rules-staging",
+          "path": "variants/cursor-rules-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\rules-staging\\zapabob\\create-rule",
+          "originRelativePath": "zapabob/create-rule"
         }
       ],
-      "canonicalVariant": "cursor-rules"
+      "canonicalVariant": "cursor-rules-staging"
     },
     {
       "slug": "create-skill",
@@ -219,12 +729,13 @@
       "description": "Guides users through creating effective Agent Skills for Cursor. Use when you want to create, write, or author a new skill, or asks about skill structure, best practices, or SKILL.md format.",
       "variants": [
         {
-          "source": "cursor-rules",
-          "path": "variants/cursor-rules",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\create-skill"
+          "source": "cursor-rules-staging",
+          "path": "variants/cursor-rules-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\rules-staging\\zapabob\\create-skill",
+          "originRelativePath": "zapabob/create-skill"
         }
       ],
-      "canonicalVariant": "cursor-rules"
+      "canonicalVariant": "cursor-rules-staging"
     },
     {
       "slug": "create-subagent",
@@ -232,12 +743,69 @@
       "description": "Create custom subagents for specialized AI tasks. Use when you want to create a new type of subagent, set up task-specific agents, configure code reviewers, debuggers, or domain-specific assistants with custom prompts.",
       "variants": [
         {
-          "source": "cursor-rules",
-          "path": "variants/cursor-rules",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\create-subagent"
+          "source": "cursor-rules-staging",
+          "path": "variants/cursor-rules-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\rules-staging\\zapabob\\create-subagent",
+          "originRelativePath": "zapabob/create-subagent"
         }
       ],
-      "canonicalVariant": "cursor-rules"
+      "canonicalVariant": "cursor-rules-staging"
+    },
+    {
+      "slug": "creative-ideation",
+      "displayName": "ideation",
+      "description": "\"Generate project ideas via creative constraints.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\creative-ideation",
+          "originRelativePath": "creative/creative-ideation"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "darwinian-evolver",
+      "displayName": "darwinian-evolver",
+      "description": "Evolve prompts/regex/SQL/code with Imbue's evolution loop.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\darwinian-evolver",
+          "originRelativePath": "research/darwinian-evolver"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "dcf-model",
+      "displayName": "dcf-model",
+      "description": "Build institutional-quality DCF valuation models in Excel — revenue projections, FCF build, WACC, terminal value, Bear/Base/Bull scenarios, 5x5 sensitivity tables. Pairs with excel-author. Use for intrinsic-value equity analysis.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\finance\\dcf-model",
+          "originRelativePath": "finance/dcf-model"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "debugging-hermes-tui-commands",
+      "displayName": "debugging-hermes-tui-commands",
+      "description": "\"Debug Hermes TUI slash commands: Python, gateway, Ink UI.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\debugging-hermes-tui-commands",
+          "originRelativePath": "software-development/debugging-hermes-tui-commands"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "deep-research-specialist",
@@ -247,7 +815,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\deep-research-specialist"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\deep-research-specialist",
+          "originRelativePath": "deep-research-specialist"
         }
       ],
       "canonicalVariant": "codex"
@@ -260,17 +829,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\deepresearch-defense-standard"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\deepresearch-defense-standard",
+          "originRelativePath": "deepresearch-defense-standard"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\deepresearch-defense-standard"
-        },
-        {
-          "source": "agents",
-          "path": "variants/agents",
-          "originPath": "C:\\Users\\downl\\.agents\\skills\\deepresearch-defense-standard"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\deepresearch-defense-standard",
+          "originRelativePath": "zapabob/deepresearch-defense-standard"
         }
       ],
       "canonicalVariant": "codex"
@@ -283,7 +849,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\demo-multi-agent-workflow"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\demo-multi-agent-workflow",
+          "originRelativePath": "demo-multi-agent-workflow"
         }
       ],
       "canonicalVariant": "codex"
@@ -296,12 +863,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\dependency-analyst"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\dependency-analyst",
+          "originRelativePath": "dependency-analyst"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\dependency-analyst"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\dependency-analyst",
+          "originRelativePath": "zapabob/dependency-analyst"
         }
       ],
       "canonicalVariant": "codex"
@@ -314,15 +883,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\dependency-scout"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\dependency-scout",
+          "originRelativePath": "dependency-scout"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\dependency-scout"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\dependency-scout",
+          "originRelativePath": "zapabob/dependency-scout"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "design-md",
+      "displayName": "design-md",
+      "description": "Author/validate/export Google's DESIGN.md token spec files.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\design-md",
+          "originRelativePath": "creative/design-md"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "desktop-companion-3d",
+      "displayName": "hypura-desktop-companion-3d",
+      "description": "Use Hypura Harness companion3d tools to drive the local browser or Electron 3D companion with local VRM, GLB, GLTF, or FBX assets.",
+      "variants": [
+        {
+          "source": "hermes-agent-vendor",
+          "path": "variants/hermes-agent-vendor",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\vendor\\openclaw-mirror\\extensions\\hypura-harness\\skills\\desktop-companion-3d",
+          "originRelativePath": "desktop-companion-3d"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-vendor"
     },
     {
       "slug": "develop-web-game",
@@ -332,10 +931,53 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\develop-web-game"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\develop-web-game",
+          "originRelativePath": "develop-web-game"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "docker-management",
+      "displayName": "docker-management",
+      "description": "Manage Docker containers, images, volumes, networks, and Compose stacks — lifecycle ops, debugging, cleanup, and Dockerfile optimization.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\devops\\docker-management",
+          "originRelativePath": "devops/docker-management"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "dogfood",
+      "displayName": "dogfood",
+      "description": "\"Exploratory QA of web apps: find bugs, evidence, reports.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\dogfood",
+          "originRelativePath": "dogfood"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "domain-intel",
+      "displayName": "domain-intel",
+      "description": "Passive domain reconnaissance using Python stdlib. Subdomain discovery, SSL certificate inspection, WHOIS lookups, DNS records, domain availability checks, and bulk multi-domain analysis. No API keys required.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\domain-intel",
+          "originRelativePath": "research/domain-intel"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "draft-wallhit-planner",
@@ -343,12 +985,55 @@
       "description": "ドラフト文書の手直し（整合性チェック・数値更新・トーン修正）と、GPT/Gemini/Claude Opus/DeepResearch向け壁打ち文書の生成・フィードバック統合を行う。提案書レビュー、壁打きセッション準備、壁打ち結果の反映、提出前チェックリストに使用する。",
       "variants": [
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\draft-wallhit-planner"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\draft-wallhit-planner",
+          "originRelativePath": "zapabob/draft-wallhit-planner"
         }
       ],
-      "canonicalVariant": "cursor"
+      "canonicalVariant": "cursor-staging"
+    },
+    {
+      "slug": "drug-discovery",
+      "displayName": "drug-discovery",
+      "description": ">",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\drug-discovery",
+          "originRelativePath": "research/drug-discovery"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "dspy",
+      "displayName": "dspy",
+      "description": "\"DSPy: declarative LM programs, auto-optimize prompts, RAG.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\mlops\\research\\dspy",
+          "originRelativePath": "mlops/research/dspy"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "duckduckgo-search",
+      "displayName": "duckduckgo-search",
+      "description": "Free web search via DuckDuckGo — text, news, images, videos. No API key needed. Prefer the `ddgs` CLI when installed; use the Python DDGS library only after verifying that `ddgs` is available in the current runtime.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\duckduckgo-search",
+          "originRelativePath": "research/duckduckgo-search"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "dynamic-skill-dispatcher",
@@ -358,10 +1043,53 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\dynamic-skill-dispatcher"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\dynamic-skill-dispatcher",
+          "originRelativePath": "dynamic-skill-dispatcher"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "evm",
+      "displayName": "evm",
+      "description": "\"Read-only EVM client: wallets, tokens, gas across 8 chains.\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\blockchain\\evm",
+          "originRelativePath": "blockchain/evm"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "excalidraw",
+      "displayName": "excalidraw",
+      "description": "\"Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\excalidraw",
+          "originRelativePath": "creative/excalidraw"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "excel-author",
+      "displayName": "excel-author",
+      "description": "Build auditable Excel workbooks headless with openpyxl — blue/black/green cell conventions, formulas over hardcodes, named ranges, balance checks, sensitivity tables. Use for financial models, audit outputs, reconciliations.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\finance\\excel-author",
+          "originRelativePath": "finance/excel-author"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "executor",
@@ -371,15 +1099,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\executor"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\executor",
+          "originRelativePath": "executor"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\executor"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\executor",
+          "originRelativePath": "zapabob/executor"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "faiss",
+      "displayName": "faiss",
+      "description": "Facebook's library for efficient similarity search and clustering of dense vectors. Supports billions of vectors, GPU acceleration, and various index types (Flat, IVF, HNSW). Use for fast k-NN search, large-scale vector retrieval, or when you need pure similarity search without metadata. Best for high-performance applications.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\faiss",
+          "originRelativePath": "mlops/faiss"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "fastmcp",
+      "displayName": "fastmcp",
+      "description": "Build, test, inspect, install, and deploy MCP servers with FastMCP in Python. Use when creating a new MCP server, wrapping an API or database as MCP tools, exposing resources or prompts, or preparing a FastMCP server for Claude Code, Cursor, or HTTP deployment.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mcp\\fastmcp",
+          "originRelativePath": "mcp/fastmcp"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "figma",
@@ -389,7 +1147,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\figma"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\figma",
+          "originRelativePath": "figma"
         }
       ],
       "canonicalVariant": "codex"
@@ -402,7 +1161,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\figma-implement-design"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\figma-implement-design",
+          "originRelativePath": "figma-implement-design"
         }
       ],
       "canonicalVariant": "codex"
@@ -415,25 +1175,59 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\find-skills"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\find-skills",
+          "originRelativePath": "find-skills"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\find-skills"
-        },
-        {
-          "source": "claudecode",
-          "path": "variants/claudecode",
-          "originPath": "C:\\Users\\downl\\.claude\\skills\\find-skills"
-        },
-        {
-          "source": "agents",
-          "path": "variants/agents",
-          "originPath": "C:\\Users\\downl\\.agents\\skills\\find-skills"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\find-skills",
+          "originRelativePath": "zapabob/find-skills"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "findmy",
+      "displayName": "findmy",
+      "description": "\"Track Apple devices/AirTags via FindMy.app on macOS.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\apple\\findmy",
+          "originRelativePath": "apple/findmy"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "fitness-nutrition",
+      "displayName": "fitness-nutrition",
+      "description": ">",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\health\\fitness-nutrition",
+          "originRelativePath": "health/fitness-nutrition"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "flash-attention",
+      "displayName": "optimizing-attention-flash",
+      "description": "Optimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x memory reduction. Use when training/running transformers with long sequences (>512 tokens), encountering GPU memory issues with attention, or need faster inference. Supports PyTorch native SDPA, flash-attn library, H100 FP8, and sliding window attention.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\flash-attention",
+          "originRelativePath": "mlops/flash-attention"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "gemini-cli-integration",
@@ -443,7 +1237,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\gemini-cli-integration"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\gemini-cli-integration",
+          "originRelativePath": "gemini-cli-integration"
         }
       ],
       "canonicalVariant": "codex"
@@ -456,7 +1251,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\gh-address-comments"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\gh-address-comments",
+          "originRelativePath": "gh-address-comments"
         }
       ],
       "canonicalVariant": "codex"
@@ -469,25 +1265,42 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\gh-fix-ci"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\gh-fix-ci",
+          "originRelativePath": "gh-fix-ci"
         }
       ],
       "canonicalVariant": "codex"
     },
     {
+      "slug": "gif-search",
+      "displayName": "gif-search",
+      "description": "\"Search/download GIFs from Tenor via curl + jq.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\media\\gif-search",
+          "originRelativePath": "media/gif-search"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
       "slug": "git4d-runtime",
       "displayName": "git4d-runtime",
-      "description": "Git4D Runtime Checker - Validate Git/CUDA/SSE runtime state and export KAMUI4D-compatible Git graph JSON for Codex/Hermes workflows.",
+      "description": "\"Git4D Runtime Checker - Validate Git/CUDA/SSE runtime state and export KAMUI4D-compatible Git graph JSON for Codex/Hermes workflows.\"",
       "variants": [
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\git4d-runtime"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\git4d-runtime",
+          "originRelativePath": "git4d-runtime"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\git4d-runtime"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\git4d-runtime",
+          "originRelativePath": "zapabob/git4d-runtime"
         }
       ],
       "canonicalVariant": "codex"
@@ -495,20 +1308,302 @@
     {
       "slug": "git4d-schema",
       "displayName": "git4d-schema",
-      "description": "Git4D Schema Auditor - Validate .git4d configuration, Codex/Hermes/KAMUI4D integration declarations, and graph export contracts.",
+      "description": "\"Git4D Schema Auditor - Validate .git4d configuration, Codex/Hermes/KAMUI4D integration declarations, and graph export contracts.\"",
       "variants": [
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\git4d-schema"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\git4d-schema",
+          "originRelativePath": "git4d-schema"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\git4d-schema"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\git4d-schema",
+          "originRelativePath": "zapabob/git4d-schema"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "github-auth",
+      "displayName": "github-auth",
+      "description": "\"GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\github\\github-auth",
+          "originRelativePath": "github/github-auth"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "github-code-review",
+      "displayName": "github-code-review",
+      "description": "\"Review PRs: diffs, inline comments via gh or REST.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\github\\github-code-review",
+          "originRelativePath": "github/github-code-review"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "github-issues",
+      "displayName": "github-issues",
+      "description": "\"Create, triage, label, assign GitHub issues via gh or REST.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\github\\github-issues",
+          "originRelativePath": "github/github-issues"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "github-pr-workflow",
+      "displayName": "github-pr-workflow",
+      "description": "\"GitHub PR lifecycle: branch, commit, open, CI, merge.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\github\\github-pr-workflow",
+          "originRelativePath": "github/github-pr-workflow"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "github-repo-management",
+      "displayName": "github-repo-management",
+      "description": "\"Clone/create/fork repos; manage remotes, releases.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\github\\github-repo-management",
+          "originRelativePath": "github/github-repo-management"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "gitnexus-explorer",
+      "displayName": "gitnexus-explorer",
+      "description": "Index a codebase with GitNexus and serve an interactive knowledge graph via web UI + Cloudflare tunnel.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\gitnexus-explorer",
+          "originRelativePath": "research/gitnexus-explorer"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "godmode",
+      "displayName": "godmode",
+      "description": "\"Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\red-teaming\\godmode",
+          "originRelativePath": "red-teaming/godmode"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "google_meet",
+      "displayName": "google_meet",
+      "description": "Join a Google Meet call, transcribe live captions, optionally speak in realtime, and do the followup work afterwards. Use when the user asks the agent to sit in on a meeting, take notes, summarize, respond in-call, or action items from it.",
+      "variants": [
+        {
+          "source": "hermes-agent-plugins",
+          "path": "variants/hermes-agent-plugins",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\plugins\\google_meet",
+          "originRelativePath": "google_meet"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-plugins"
+    },
+    {
+      "slug": "google-workspace",
+      "displayName": "google-workspace",
+      "description": "\"Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\productivity\\google-workspace",
+          "originRelativePath": "productivity/google-workspace"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "grok",
+      "displayName": "grok",
+      "description": "\"Delegate coding to xAI Grok Build CLI (features, PRs).\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\autonomous-ai-agents\\grok",
+          "originRelativePath": "autonomous-ai-agents/grok"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "guidance",
+      "displayName": "guidance",
+      "description": "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained generation framework",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\guidance",
+          "originRelativePath": "mlops/guidance"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "heartmula",
+      "displayName": "heartmula",
+      "description": "\"HeartMuLa: Suno-like song generation from lyrics + tags.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\media\\heartmula",
+          "originRelativePath": "media/heartmula"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "here-now",
+      "displayName": "here.now",
+      "description": "Publish static sites to {slug}.here.now and store private files in cloud Drives for agent-to-agent handoff.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\productivity\\here-now",
+          "originRelativePath": "productivity/here-now"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "hermes-agent",
+      "displayName": "hermes-agent",
+      "description": "\"Configure, extend, or contribute to Hermes Agent.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\autonomous-ai-agents\\hermes-agent",
+          "originRelativePath": "autonomous-ai-agents/hermes-agent"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "hermes-agent-skill-authoring",
+      "displayName": "hermes-agent-skill-authoring",
+      "description": "\"Author in-repo SKILL.md: frontmatter, validator, structure.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\hermes-agent-skill-authoring",
+          "originRelativePath": "software-development/hermes-agent-skill-authoring"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "hermes-s6-container-supervision",
+      "displayName": "hermes-s6-container-supervision",
+      "description": "Modify, debug, or extend the s6-overlay supervision tree inside the Hermes Agent Docker image — adding new services, debugging profile gateways, understanding the Architecture B main-program pattern.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\hermes-s6-container-supervision",
+          "originRelativePath": "software-development/hermes-s6-container-supervision"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "himalaya",
+      "displayName": "himalaya",
+      "description": "\"Himalaya CLI: IMAP/SMTP email from terminal.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\email\\himalaya",
+          "originRelativePath": "email/himalaya"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "honcho",
+      "displayName": "honcho",
+      "description": "Configure and use Honcho memory with Hermes -- cross-session user modeling, multi-profile peer isolation, observation config, dialectic reasoning, session summaries, and context budget enforcement. Use when setting up Honcho, troubleshooting memory, managing profiles with Honcho peers, or tuning observation, recall, and dialectic settings.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\autonomous-ai-agents\\honcho",
+          "originRelativePath": "autonomous-ai-agents/honcho"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "huggingface-hub",
+      "displayName": "huggingface-hub",
+      "description": "\"HuggingFace hf CLI: search/download/upload models, datasets.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\mlops\\huggingface-hub",
+          "originRelativePath": "mlops/huggingface-hub"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "huggingface-tokenizers",
+      "displayName": "huggingface-tokenizers",
+      "description": "Fast tokenizers optimized for research and production. Rust-based implementation tokenizes 1GB in <20 seconds. Supports BPE, WordPiece, and Unigram algorithms. Train custom vocabularies, track alignments, handle padding/truncation. Integrates seamlessly with transformers. Use when you need high-performance tokenization or custom tokenizer training.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\huggingface-tokenizers",
+          "originRelativePath": "mlops/huggingface-tokenizers"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "human-memory-emulation",
@@ -518,10 +1613,109 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\butte\\.codex\\skills\\human-memory-emulation"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\human-memory-emulation",
+          "originRelativePath": "human-memory-emulation"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "humanizer",
+      "displayName": "humanizer",
+      "description": "\"Humanize text: strip AI-isms and add real voice.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\humanizer",
+          "originRelativePath": "creative/humanizer"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "hyperframes",
+      "displayName": "hyperframes",
+      "description": "Create HTML-based video compositions, animated title cards, social overlays, captioned talking-head videos, audio-reactive visuals, and shader transitions using HyperFrames. HTML is the source of truth for video. Use when the user wants a rendered MP4/WebM from an HTML composition, wants to animate text/logos/charts over media, needs captions synced to audio, wants TTS narration, or wants to convert a website into a video.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\creative\\hyperframes",
+          "originRelativePath": "creative/hyperframes"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "hyperliquid",
+      "displayName": "hyperliquid",
+      "description": "Hyperliquid market data, account history, trade review.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\blockchain\\hyperliquid",
+          "originRelativePath": "blockchain/hyperliquid"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "hypura",
+      "displayName": "hypura-harness",
+      "description": "Official ASI \"Hakua\" Auditory & Physical Actuator Substrate",
+      "variants": [
+        {
+          "source": "hermes-agent-vendor",
+          "path": "variants/hermes-agent-vendor",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\vendor\\openclaw-mirror\\extensions\\hypura-harness\\skills\\hypura",
+          "originRelativePath": "hypura"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-vendor"
+    },
+    {
+      "slug": "imessage",
+      "displayName": "imessage",
+      "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\apple\\imessage",
+          "originRelativePath": "apple/imessage"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "instructor",
+      "displayName": "instructor",
+      "description": "Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle-tested structured output library",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\instructor",
+          "originRelativePath": "mlops/instructor"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "jupyter-live-kernel",
+      "displayName": "jupyter-live-kernel",
+      "description": "\"Iterative Python via live Jupyter kernel (hamelnb).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\data-science\\jupyter-live-kernel",
+          "originRelativePath": "data-science/jupyter-live-kernel"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "jupyter-notebook",
@@ -531,10 +1725,151 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\jupyter-notebook"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\jupyter-notebook",
+          "originRelativePath": "jupyter-notebook"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "kanban-codex-lane",
+      "displayName": "kanban-codex-lane",
+      "description": "Use when a Hermes Kanban worker wants to run Codex CLI as an isolated implementation lane while Hermes keeps ownership of task lifecycle, reconciliation, testing, and handoff.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\autonomous-ai-agents\\kanban-codex-lane",
+          "originRelativePath": "autonomous-ai-agents/kanban-codex-lane"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "kanban-orchestrator",
+      "displayName": "kanban-orchestrator",
+      "description": "Decomposition playbook + anti-temptation rules for an orchestrator profile routing work through Kanban. The \"don't do the work yourself\" rule and the basic lifecycle are auto-injected into every kanban worker's system prompt; this skill is the deeper playbook when you're specifically playing the orchestrator role.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\devops\\kanban-orchestrator",
+          "originRelativePath": "devops/kanban-orchestrator"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "kanban-video-orchestrator",
+      "displayName": "kanban-video-orchestrator",
+      "description": "Plan, set up, and monitor a multi-agent video production pipeline backed by Hermes Kanban. Use when the user wants to make ANY video — narrative film, product/marketing, music video, explainer, ASCII/terminal art, abstract/generative loop, comic, 3D, real-time/installation — and the work warrants decomposition into specialized profiles (writer, designer, animator, renderer, voice, editor, etc.) coordinated through a kanban board. Performs adaptive discovery to scope the brief, designs an appropriate team for the requested style, generates the setup script that creates Hermes profiles + initial kanban task, then helps monitor execution and intervene when tasks stall or fail. Routes scenes to whichever Hermes rendering / audio / design skill fits each beat (`ascii-video`, `manim-video`, `p5js`, `comfyui`, `touchdesigner-mcp`, `blender-mcp`, `pixel-art`, `baoyu-comic`, `claude-design`, `excalidraw`, `songsee`, `heartmula`, …) plus external APIs for TTS, image-gen, and image-to-video as needed.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\creative\\kanban-video-orchestrator",
+          "originRelativePath": "creative/kanban-video-orchestrator"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "kanban-worker",
+      "displayName": "kanban-worker",
+      "description": "Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\devops\\kanban-worker",
+          "originRelativePath": "devops/kanban-worker"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "lambda-labs",
+      "displayName": "lambda-labs-gpu-cloud",
+      "description": "Reserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-scale training.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\lambda-labs",
+          "originRelativePath": "mlops/lambda-labs"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "lbo-model",
+      "displayName": "lbo-model",
+      "description": "Build leveraged buyout models in Excel — sources & uses, debt schedule, cash sweep, exit multiple, IRR/MOIC sensitivity. Pairs with excel-author. Use for PE screening, sponsor-case valuation, or illustrative LBO in a pitch.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\finance\\lbo-model",
+          "originRelativePath": "finance/lbo-model"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "linear",
+      "displayName": "linear",
+      "description": "\"Linear: manage issues, projects, teams via GraphQL + curl.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\productivity\\linear",
+          "originRelativePath": "productivity/linear"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "llama-cpp",
+      "displayName": "llama-cpp",
+      "description": "llama.cpp local GGUF inference + HF Hub model discovery.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\mlops\\inference\\llama-cpp",
+          "originRelativePath": "mlops/inference/llama-cpp"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "llava",
+      "displayName": "llava",
+      "description": "Large Language and Vision Assistant. Enables visual instruction tuning and image-based conversations. Combines CLIP vision encoder with Vicuna/LLaMA language models. Supports multi-turn image chat, visual question answering, and instruction following. Use for vision-language chatbots or image understanding tasks. Best for conversational image analysis.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\llava",
+          "originRelativePath": "mlops/llava"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "llm-wiki",
+      "displayName": "llm-wiki",
+      "description": "\"Karpathy's LLM Wiki: build/query interlinked markdown KB.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\research\\llm-wiki",
+          "originRelativePath": "research/llm-wiki"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "llmops-manager",
@@ -544,10 +1879,123 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\llmops-manager"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\llmops-manager",
+          "originRelativePath": "llmops-manager"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "lm-evaluation-harness",
+      "displayName": "evaluating-llms-harness",
+      "description": "\"lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\mlops\\evaluation\\lm-evaluation-harness",
+          "originRelativePath": "mlops/evaluation/lm-evaluation-harness"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "macos-computer-use",
+      "displayName": "macos-computer-use",
+      "description": "|",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\apple\\macos-computer-use",
+          "originRelativePath": "apple/macos-computer-use"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "manim-video",
+      "displayName": "manim-video",
+      "description": "\"Manim CE animations: 3Blue1Brown math/algo videos.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\manim-video",
+          "originRelativePath": "creative/manim-video"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "maps",
+      "displayName": "maps",
+      "description": "\"Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\productivity\\maps",
+          "originRelativePath": "productivity/maps"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "mcporter",
+      "displayName": "mcporter",
+      "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mcp\\mcporter",
+          "originRelativePath": "mcp/mcporter"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "meme-generation",
+      "displayName": "meme-generation",
+      "description": "Generate real meme images by picking a template and overlaying text with Pillow. Produces actual .png meme files.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\creative\\meme-generation",
+          "originRelativePath": "creative/meme-generation"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "memento-flashcards",
+      "displayName": "memento-flashcards",
+      "description": ">-",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\productivity\\memento-flashcards",
+          "originRelativePath": "productivity/memento-flashcards"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "merger-model",
+      "displayName": "merger-model",
+      "description": "Build accretion/dilution (merger) models in Excel — pro-forma P&L, synergies, financing mix, EPS impact. Pairs with excel-author. Use for M&A pitches, board materials, or deal evaluation.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\finance\\merger-model",
+          "originRelativePath": "finance/merger-model"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "migrate-to-skills",
@@ -555,12 +2003,41 @@
       "description": "Convert 'Applied intelligently' Cursor rules (.cursor/rules/*.mdc) and slash commands (.cursor/commands/*.md) to Agent Skills format (.cursor/skills/). Use when you want to migrate rules or commands to skills, convert .mdc rules to SKILL.md format, or consolidate commands into the skills directory.",
       "variants": [
         {
-          "source": "cursor-rules",
-          "path": "variants/cursor-rules",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\migrate-to-skills"
+          "source": "cursor-rules-staging",
+          "path": "variants/cursor-rules-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\rules-staging\\zapabob\\migrate-to-skills",
+          "originRelativePath": "zapabob/migrate-to-skills"
         }
       ],
-      "canonicalVariant": "cursor-rules"
+      "canonicalVariant": "cursor-rules-staging"
+    },
+    {
+      "slug": "minecraft-modpack-server",
+      "displayName": "minecraft-modpack-server",
+      "description": "\"Host modded Minecraft servers (CurseForge, Modrinth).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\gaming\\minecraft-modpack-server",
+          "originRelativePath": "gaming/minecraft-modpack-server"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "modal",
+      "displayName": "modal-serverless-gpu",
+      "description": "Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\modal",
+          "originRelativePath": "mlops/modal"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "multi-agent-terminal-manager",
@@ -570,10 +2047,109 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\multi-agent-terminal-manager"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\multi-agent-terminal-manager",
+          "originRelativePath": "multi-agent-terminal-manager"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "nano-pdf",
+      "displayName": "nano-pdf",
+      "description": "\"Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\productivity\\nano-pdf",
+          "originRelativePath": "productivity/nano-pdf"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "native-mcp",
+      "displayName": "native-mcp",
+      "description": "\"MCP client: connect servers, register tools (stdio/HTTP).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\mcp\\native-mcp",
+          "originRelativePath": "mcp/native-mcp"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "nemo-curator",
+      "displayName": "nemo-curator",
+      "description": "GPU-accelerated data curation for LLM training. Supports text/image/video/audio. Features fuzzy deduplication (16× faster), quality filtering (30+ heuristics), semantic deduplication, PII redaction, NSFW detection. Scales across GPUs with RAPIDS. Use for preparing high-quality training datasets, cleaning web data, or deduplicating large corpora.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\nemo-curator",
+          "originRelativePath": "mlops/nemo-curator"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "neuro-vrchat",
+      "displayName": "neuro-vrchat",
+      "description": "\"Bridge Neuro API actions into safe VRChat autonomy.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\gaming\\neuro-vrchat",
+          "originRelativePath": "gaming/neuro-vrchat"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "neuroskill-bci",
+      "displayName": "neuroskill-bci",
+      "description": ">",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\health\\neuroskill-bci",
+          "originRelativePath": "health/neuroskill-bci"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "node-inspect-debugger",
+      "displayName": "node-inspect-debugger",
+      "description": "\"Debug Node.js via --inspect + Chrome DevTools Protocol CLI.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\node-inspect-debugger",
+          "originRelativePath": "software-development/node-inspect-debugger"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "notion",
+      "displayName": "notion",
+      "description": "\"Notion API + ntn CLI: pages, databases, markdown, Workers.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\productivity\\notion",
+          "originRelativePath": "productivity/notion"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "notion-knowledge-capture",
@@ -583,7 +2159,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\notion-knowledge-capture"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\notion-knowledge-capture",
+          "originRelativePath": "notion-knowledge-capture"
         }
       ],
       "canonicalVariant": "codex"
@@ -596,7 +2173,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\notion-meeting-intelligence"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\notion-meeting-intelligence",
+          "originRelativePath": "notion-meeting-intelligence"
         }
       ],
       "canonicalVariant": "codex"
@@ -609,7 +2187,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\notion-research-documentation"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\notion-research-documentation",
+          "originRelativePath": "notion-research-documentation"
         }
       ],
       "canonicalVariant": "codex"
@@ -622,23 +2201,151 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\notion-spec-to-implementation"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\notion-spec-to-implementation",
+          "originRelativePath": "notion-spec-to-implementation"
         }
       ],
       "canonicalVariant": "codex"
     },
     {
-      "slug": "obsidian-knowledge",
+      "slug": "obliteratus",
+      "displayName": "obliteratus",
+      "description": "\"OBLITERATUS: abliterate LLM refusals (diff-in-means).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\mlops\\inference\\obliteratus",
+          "originRelativePath": "mlops/inference/obliteratus"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "obsidian",
+      "displayName": "obsidian",
+      "description": "Read, search, create, and edit notes in the Obsidian vault.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\note-taking\\obsidian",
+          "originRelativePath": "note-taking/obsidian"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "obsidian-knowledge-management",
       "displayName": "Obsidian Knowledge Management",
       "description": "Obsidianのような知識管理、Wikilink構文([[link]])による文書間リンク、バックリンク、タグ(#tag)抽出を扱うためのスキル。",
       "variants": [
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\obsidian-knowledge"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\Obsidian Knowledge Management",
+          "originRelativePath": "Obsidian Knowledge Management"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "ocr-and-documents",
+      "displayName": "ocr-and-documents",
+      "description": "\"Extract text from PDFs/scans (pymupdf, marker-pdf).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\productivity\\ocr-and-documents",
+          "originRelativePath": "productivity/ocr-and-documents"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "one-three-one-rule",
+      "displayName": "one-three-one-rule",
+      "description": ">",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\communication\\one-three-one-rule",
+          "originRelativePath": "communication/one-three-one-rule"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "openclaw-migration",
+      "displayName": "openclaw-migration",
+      "description": "Migrate a user's OpenClaw customization footprint into Hermes Agent. Imports Hermes-compatible memories, SOUL.md, command allowlists, user skills, and selected workspace assets from ~/.openclaw, then reports exactly what could not be migrated and why.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\migration\\openclaw-migration",
+          "originRelativePath": "migration/openclaw-migration"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "opencode",
+      "displayName": "opencode",
+      "description": "\"Delegate coding to OpenCode CLI (features, PR review).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\autonomous-ai-agents\\opencode",
+          "originRelativePath": "autonomous-ai-agents/opencode"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "opencode-free-rotation",
+      "displayName": "opencode-free-rotation",
+      "description": "\"Refresh OpenCode Zen free models and failover chain.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\autonomous-ai-agents\\opencode-free-rotation",
+          "originRelativePath": "autonomous-ai-agents/opencode-free-rotation"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "openhands",
+      "displayName": "openhands",
+      "description": "Delegate coding to OpenHands CLI (model-agnostic, LiteLLM).",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\autonomous-ai-agents\\openhands",
+          "originRelativePath": "autonomous-ai-agents/openhands"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "openhue",
+      "displayName": "openhue",
+      "description": "\"Control Philips Hue lights, scenes, rooms via OpenHue CLI.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\smart-home\\openhue",
+          "originRelativePath": "smart-home/openhue"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "orchestrator",
@@ -648,15 +2355,115 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\orchestrator"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\orchestrator",
+          "originRelativePath": "orchestrator"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\orchestrator"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\orchestrator",
+          "originRelativePath": "zapabob/orchestrator"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "osint-investigation",
+      "displayName": "osint-investigation",
+      "description": "Public-records OSINT investigation framework — SEC EDGAR filings, USAspending contracts, Senate lobbying, OFAC sanctions, ICIJ offshore leaks, NYC property records (ACRIS), OpenCorporates registries, CourtListener court records, Wayback Machine archives, Wikipedia + Wikidata, GDELT news monitoring. Entity resolution across sources, cross-link analysis, timing correlation, evidence chains. Python stdlib only.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\osint-investigation",
+          "originRelativePath": "research/osint-investigation"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "oss-forensics",
+      "displayName": "oss-forensics",
+      "description": "|",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\security\\oss-forensics",
+          "originRelativePath": "security/oss-forensics"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "outlines",
+      "displayName": "outlines",
+      "description": "\"Outlines: structured JSON/regex/Pydantic LLM generation.\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\inference\\outlines",
+          "originRelativePath": "mlops/inference/outlines"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "p5js",
+      "displayName": "p5js",
+      "description": "\"p5.js sketches: gen art, shaders, interactive, 3D.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\p5js",
+          "originRelativePath": "creative/p5js"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "page-agent",
+      "displayName": "page-agent",
+      "description": "Embed alibaba/page-agent into your own web application — a pure-JavaScript in-page GUI agent that ships as a single <script> tag or npm package and lets end-users of your site drive the UI with natural language (\"click login, fill username as John\"). No Python, no headless browser, no extension required. Use this skill when the user is a web developer who wants to add an AI copilot to their SaaS / admin panel / B2B tool, make a legacy web app accessible via natural language, or evaluate page-agent against a local (Ollama) or cloud (Qwen / OpenAI / OpenRouter) LLM. NOT for server-side browser automation — point those users to Hermes' built-in browser tool instead.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\web-development\\page-agent",
+          "originRelativePath": "web-development/page-agent"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "parallel-cli",
+      "displayName": "parallel-cli",
+      "description": "Optional vendor skill for Parallel CLI — agent-native web search, extraction, deep research, enrichment, FindAll, and monitoring. Prefer JSON output and non-interactive flows.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\parallel-cli",
+          "originRelativePath": "research/parallel-cli"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "peft",
+      "displayName": "peft-fine-tuning",
+      "description": "Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minimal accuracy loss, or for multi-adapter serving. HuggingFace's official library integrated with transformers ecosystem.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\peft",
+          "originRelativePath": "mlops/peft"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "performance-analyst",
@@ -666,12 +2473,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\performance-analyst"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\performance-analyst",
+          "originRelativePath": "performance-analyst"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\performance-analyst"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\performance-analyst",
+          "originRelativePath": "zapabob/performance-analyst"
         }
       ],
       "canonicalVariant": "codex"
@@ -684,28 +2493,73 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\performance-scout"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\performance-scout",
+          "originRelativePath": "performance-scout"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\performance-scout"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\performance-scout",
+          "originRelativePath": "zapabob/performance-scout"
         }
       ],
       "canonicalVariant": "codex"
     },
     {
-      "slug": "perplexity-deep-research",
-      "displayName": "Perplexity DeepResearch",
-      "description": "脚注や参照情報の裏取り（ファクトチェック）を深掘りして行い、情報の正確性、最新性、信頼性を検証するスキル。",
+      "slug": "pinecone",
+      "displayName": "pinecone",
+      "description": "Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommendation systems, or semantic search at scale. Best for serverless, managed infrastructure.",
       "variants": [
         {
-          "source": "agents",
-          "path": "variants/agents",
-          "originPath": "C:\\Users\\downl\\.agents\\skills\\perplexity-deep-research"
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\pinecone",
+          "originRelativePath": "mlops/pinecone"
         }
       ],
-      "canonicalVariant": "agents"
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "pinggy-tunnel",
+      "displayName": "pinggy-tunnel",
+      "description": "Zero-install localhost tunnels over SSH via Pinggy.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\devops\\pinggy-tunnel",
+          "originRelativePath": "devops/pinggy-tunnel"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "pixel-art",
+      "displayName": "pixel-art",
+      "description": "\"Pixel art w/ era palettes (NES, Game Boy, PICO-8).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\pixel-art",
+          "originRelativePath": "creative/pixel-art"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "plan",
+      "displayName": "plan",
+      "description": "\"Plan mode: write markdown plan to .hermes/plans/, no exec.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\plan",
+          "originRelativePath": "software-development/plan"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "plan-mode",
@@ -715,12 +2569,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\plan-mode"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\plan-mode",
+          "originRelativePath": "plan-mode"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\plan-mode"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\plan-mode",
+          "originRelativePath": "zapabob/plan-mode"
         }
       ],
       "canonicalVariant": "codex"
@@ -733,10 +2589,109 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\plan-mode-manager"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\plan-mode-manager",
+          "originRelativePath": "plan-mode-manager"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "pokemon-player",
+      "displayName": "pokemon-player",
+      "description": "\"Play Pokemon via headless emulator + RAM reads.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\gaming\\pokemon-player",
+          "originRelativePath": "gaming/pokemon-player"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "polymarket",
+      "displayName": "polymarket",
+      "description": "\"Query Polymarket: markets, prices, orderbooks, history.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\research\\polymarket",
+          "originRelativePath": "research/polymarket"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "popular-web-designs",
+      "displayName": "popular-web-designs",
+      "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\popular-web-designs",
+          "originRelativePath": "creative/popular-web-designs"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "powerpoint",
+      "displayName": "powerpoint",
+      "description": "\"Create, read, edit .pptx decks, slides, notes, templates.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\productivity\\powerpoint",
+          "originRelativePath": "productivity/powerpoint"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "pptx-author",
+      "displayName": "pptx-author",
+      "description": "Build PowerPoint decks headless with python-pptx. Pairs with excel-author for model-backed decks where every number traces to a workbook cell. Use for pitch decks, IC memos, earnings notes.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\finance\\pptx-author",
+          "originRelativePath": "finance/pptx-author"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "pretext",
+      "displayName": "pretext",
+      "description": "\"Use when building creative browser demos with @chenglou/pretext — DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games, kinetic typography, and text-powered generative art. Produces single-file HTML demos by default.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\pretext",
+          "originRelativePath": "creative/pretext"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "python-debugpy",
+      "displayName": "python-debugpy",
+      "description": "\"Debug Python: pdb REPL + debugpy remote (DAP).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\python-debugpy",
+          "originRelativePath": "software-development/python-debugpy"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "python-reviewer",
@@ -746,15 +2701,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\python-reviewer"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\python-reviewer",
+          "originRelativePath": "python-reviewer"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\python-reviewer"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\python-reviewer",
+          "originRelativePath": "zapabob/python-reviewer"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "pytorch-fsdp",
+      "displayName": "pytorch-fsdp",
+      "description": "Expert guidance for Fully Sharded Data Parallel training with PyTorch FSDP - parameter sharding, mixed precision, CPU offloading, FSDP2",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\pytorch-fsdp",
+          "originRelativePath": "mlops/pytorch-fsdp"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "pytorch-lightning",
+      "displayName": "pytorch-lightning",
+      "description": "High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate. Scales from laptop to supercomputer with same code. Use when you want clean training loops with built-in best practices.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\pytorch-lightning",
+          "originRelativePath": "mlops/pytorch-lightning"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "qa-engineer",
@@ -764,12 +2749,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\qa-engineer"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\qa-engineer",
+          "originRelativePath": "qa-engineer"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\qa-engineer"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\qa-engineer",
+          "originRelativePath": "zapabob/qa-engineer"
         }
       ],
       "canonicalVariant": "codex"
@@ -782,12 +2769,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\qa-service"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\qa-service",
+          "originRelativePath": "qa-service"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\qa-service"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\qa-service",
+          "originRelativePath": "zapabob/qa-service"
         }
       ],
       "canonicalVariant": "codex"
@@ -800,15 +2789,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\qc-optimizer"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\qc-optimizer",
+          "originRelativePath": "qc-optimizer"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\qc-optimizer"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\qc-optimizer",
+          "originRelativePath": "zapabob/qc-optimizer"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "qdrant",
+      "displayName": "qdrant-vector-search",
+      "description": "High-performance vector similarity search engine for RAG and semantic search. Use when building production RAG systems requiring fast nearest neighbor search, hybrid search with filtering, or scalable vector storage with Rust-powered performance.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\qdrant",
+          "originRelativePath": "mlops/qdrant"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "qmd",
+      "displayName": "qmd",
+      "description": "Search personal knowledge bases, notes, docs, and meeting transcripts locally using qmd — a hybrid retrieval engine with BM25, vector search, and LLM reranking. Supports CLI and MCP integration.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\qmd",
+          "originRelativePath": "research/qmd"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "refactorer",
@@ -818,12 +2837,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\refactorer"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\refactorer",
+          "originRelativePath": "refactorer"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\refactorer"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\refactorer",
+          "originRelativePath": "zapabob/refactorer"
         }
       ],
       "canonicalVariant": "codex"
@@ -836,20 +2857,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\remotion-best-practices"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\remotion-best-practices",
+          "originRelativePath": "remotion-best-practices"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\remotion-best-practices"
-        },
-        {
-          "source": "agents",
-          "path": "variants/agents",
-          "originPath": "C:\\Users\\downl\\.agents\\skills\\remotion-best-practices"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\remotion-best-practices",
+          "originRelativePath": "zapabob/remotion-best-practices"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "requesting-code-review",
+      "displayName": "requesting-code-review",
+      "description": "\"Pre-commit review: security scan, quality gates, auto-fix.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\requesting-code-review",
+          "originRelativePath": "software-development/requesting-code-review"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "research-paper-writing",
+      "displayName": "research-paper-writing",
+      "description": "\"Write ML papers for NeurIPS/ICML/ICLR: design→submit.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\research\\research-paper-writing",
+          "originRelativePath": "research/research-paper-writing"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "researcher",
@@ -859,15 +2905,87 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\researcher"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\researcher",
+          "originRelativePath": "researcher"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\researcher"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\researcher",
+          "originRelativePath": "zapabob/researcher"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "rest-graphql-debug",
+      "displayName": "rest-graphql-debug",
+      "description": "\"Debug REST/GraphQL APIs: status codes, auth, schemas, repro.\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\software-development\\rest-graphql-debug",
+          "originRelativePath": "software-development/rest-graphql-debug"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "saelens",
+      "displayName": "sparse-autoencoder-training",
+      "description": "Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features. Use when discovering interpretable features, analyzing superposition, or studying monosemantic representations in language models.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\saelens",
+          "originRelativePath": "mlops/saelens"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "scientist-run",
+      "displayName": "scientist-run",
+      "description": "Launch SakanaAI's AI-Scientist for autonomous scientific research. Generates ideas, executes experiments, and writes papers based on a specified template and model.",
+      "variants": [
+        {
+          "source": "hermes-agent-vendor",
+          "path": "variants/hermes-agent-vendor",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\vendor\\openclaw-mirror\\extensions\\hypura-harness\\skills\\scientist-run",
+          "originRelativePath": "scientist-run"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-vendor"
+    },
+    {
+      "slug": "scrapling",
+      "displayName": "scrapling",
+      "description": "Web scraping with Scrapling - HTTP fetching, stealth browser automation, Cloudflare bypass, and spider crawling via CLI and Python.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\scrapling",
+          "originRelativePath": "research/scrapling"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "searxng-search",
+      "displayName": "searxng-search",
+      "description": "Free meta-search via SearXNG — aggregates results from 70+ search engines. Self-hosted or use a public instance. No API key needed. Falls back automatically when the web search toolset is unavailable.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\research\\searxng-search",
+          "originRelativePath": "research/searxng-search"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "sec-audit",
@@ -877,15 +2995,31 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\sec-audit"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\sec-audit",
+          "originRelativePath": "sec-audit"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\sec-audit"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\sec-audit",
+          "originRelativePath": "zapabob/sec-audit"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "segment-anything",
+      "displayName": "segment-anything-model",
+      "description": "\"SAM: zero-shot image segmentation via points, boxes, masks.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\mlops\\models\\segment-anything",
+          "originRelativePath": "mlops/models/segment-anything"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "shell",
@@ -893,12 +3027,153 @@
       "description": "Runs the rest of a /shell request as a literal shell command. Use only when the user explicitly invokes /shell and wants the following text executed directly in the terminal.",
       "variants": [
         {
-          "source": "cursor-rules",
-          "path": "variants/cursor-rules",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\shell"
+          "source": "cursor-rules-staging",
+          "path": "variants/cursor-rules-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\rules-staging\\zapabob\\shell",
+          "originRelativePath": "zapabob/shell"
         }
       ],
-      "canonicalVariant": "cursor-rules"
+      "canonicalVariant": "cursor-rules-staging"
+    },
+    {
+      "slug": "sherlock",
+      "displayName": "sherlock",
+      "description": "OSINT username search across 400+ social networks. Hunt down social media accounts by username.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\security\\sherlock",
+          "originRelativePath": "security/sherlock"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "shinka-convert",
+      "displayName": "shinka-convert",
+      "description": "Convert an existing codebase in the current working directory into a ShinkaEvolve task directory by snapshotting the relevant code, adding evolve blocks, and generating `evaluate.py` plus Shinka runner/config files. Use when the user wants to optimize existing code with Shinka instead of creating a brand-new task from a natural-language description.",
+      "variants": [
+        {
+          "source": "hermes-agent-vendor",
+          "path": "variants/hermes-agent-vendor",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\vendor\\openclaw-mirror\\extensions\\hypura-harness\\skills\\shinka-convert",
+          "originRelativePath": "shinka-convert"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-vendor"
+    },
+    {
+      "slug": "shinka-inspect",
+      "displayName": "shinka-inspect",
+      "description": "Load top-performing Shinka programs into agent context using `shinka.utils.load_programs_to_df`, and emit a compact Markdown bundle for iteration planning.",
+      "variants": [
+        {
+          "source": "hermes-agent-vendor",
+          "path": "variants/hermes-agent-vendor",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\vendor\\openclaw-mirror\\extensions\\hypura-harness\\skills\\shinka-inspect",
+          "originRelativePath": "shinka-inspect"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-vendor"
+    },
+    {
+      "slug": "shinka-run",
+      "displayName": "shinka-run",
+      "description": "Run existing ShinkaEvolve tasks with the `shinka_run` CLI from a task directory (`evaluate.py` + `initial.<ext>`). Use when an agent needs to launch async evolution runs quickly with required `--results_dir`, generation count, and strict namespaced keyword overrides.",
+      "variants": [
+        {
+          "source": "hermes-agent-vendor",
+          "path": "variants/hermes-agent-vendor",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\vendor\\openclaw-mirror\\extensions\\hypura-harness\\skills\\shinka-run",
+          "originRelativePath": "shinka-run"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-vendor"
+    },
+    {
+      "slug": "shinka-setup",
+      "displayName": "shinka-setup",
+      "description": "Create ShinkaEvolve task scaffolds from a target directory and task description, producing `evaluate.py` and `initial.<ext>` (multi-language). Use when asked to set up new ShinkaEvolve tasks, evaluation harnesses, or baseline programs for ShinkaEvolve.",
+      "variants": [
+        {
+          "source": "hermes-agent-vendor",
+          "path": "variants/hermes-agent-vendor",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\vendor\\openclaw-mirror\\extensions\\hypura-harness\\skills\\shinka-setup",
+          "originRelativePath": "shinka-setup"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-vendor"
+    },
+    {
+      "slug": "shop-app",
+      "displayName": "shop-app",
+      "description": "\"Shop.app: product search, order tracking, returns, reorder.\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\productivity\\shop-app",
+          "originRelativePath": "productivity/shop-app"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "shopify",
+      "displayName": "shopify",
+      "description": "Shopify Admin & Storefront GraphQL APIs via curl. Products, orders, customers, inventory, metafields.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\productivity\\shopify",
+          "originRelativePath": "productivity/shopify"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "simpo",
+      "displayName": "simpo-training",
+      "description": "Simple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better performance (+6.4 points on AlpacaEval 2.0). No reference model needed, more efficient than DPO. Use for preference alignment when want simpler, faster training than DPO/PPO.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\simpo",
+          "originRelativePath": "mlops/simpo"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "siyuan",
+      "displayName": "siyuan",
+      "description": "SiYuan Note API for searching, reading, creating, and managing blocks and documents in a self-hosted knowledge base via curl.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\productivity\\siyuan",
+          "originRelativePath": "productivity/siyuan"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "sketch",
+      "displayName": "sketch",
+      "description": "\"Throwaway HTML mockups: 2-3 design variants to compare.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\sketch",
+          "originRelativePath": "creative/sketch"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "skill-mcp-integration-manager",
@@ -908,10 +3183,67 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\skill-mcp-integration-manager"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\skill-mcp-integration-manager",
+          "originRelativePath": "skill-mcp-integration-manager"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "slime",
+      "displayName": "slime-rl-training",
+      "description": "Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework. Use when training GLM models, implementing custom data generation workflows, or needing tight Megatron-LM integration for RL scaling.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\slime",
+          "originRelativePath": "mlops/slime"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "solana",
+      "displayName": "solana",
+      "description": "Query Solana blockchain data with USD pricing — wallet balances, token portfolios with values, transaction details, NFTs, whale detection, and live network stats. Uses Solana RPC + CoinGecko. No API key required.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\blockchain\\solana",
+          "originRelativePath": "blockchain/solana"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "songsee",
+      "displayName": "songsee",
+      "description": "\"Audio spectrograms/features (mel, chroma, MFCC) via CLI.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\media\\songsee",
+          "originRelativePath": "media/songsee"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "songwriting-and-ai-music",
+      "displayName": "songwriting-and-ai-music",
+      "description": "\"Songwriting craft and Suno AI music prompts.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\songwriting-and-ai-music",
+          "originRelativePath": "creative/songwriting-and-ai-music"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "sora",
@@ -921,7 +3253,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\sora"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\sora",
+          "originRelativePath": "sora"
         }
       ],
       "canonicalVariant": "codex"
@@ -934,22 +3267,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-guard"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\specstory-guard",
+          "originRelativePath": "specstory-guard"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-guard"
-        },
-        {
-          "source": "claudecode",
-          "path": "variants/claudecode",
-          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-guard"
-        },
-        {
-          "source": "agents",
-          "path": "variants/agents",
-          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-guard"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\specstory-guard",
+          "originRelativePath": "zapabob/specstory-guard"
         }
       ],
       "canonicalVariant": "codex"
@@ -962,22 +3287,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-link-trail"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\specstory-link-trail",
+          "originRelativePath": "specstory-link-trail"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-link-trail"
-        },
-        {
-          "source": "claudecode",
-          "path": "variants/claudecode",
-          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-link-trail"
-        },
-        {
-          "source": "agents",
-          "path": "variants/agents",
-          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-link-trail"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\specstory-link-trail",
+          "originRelativePath": "zapabob/specstory-link-trail"
         }
       ],
       "canonicalVariant": "codex"
@@ -990,22 +3307,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-organize"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\specstory-organize",
+          "originRelativePath": "specstory-organize"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-organize"
-        },
-        {
-          "source": "claudecode",
-          "path": "variants/claudecode",
-          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-organize"
-        },
-        {
-          "source": "agents",
-          "path": "variants/agents",
-          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-organize"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\specstory-organize",
+          "originRelativePath": "zapabob/specstory-organize"
         }
       ],
       "canonicalVariant": "codex"
@@ -1018,22 +3327,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-project-stats"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\specstory-project-stats",
+          "originRelativePath": "specstory-project-stats"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-project-stats"
-        },
-        {
-          "source": "claudecode",
-          "path": "variants/claudecode",
-          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-project-stats"
-        },
-        {
-          "source": "agents",
-          "path": "variants/agents",
-          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-project-stats"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\specstory-project-stats",
+          "originRelativePath": "zapabob/specstory-project-stats"
         }
       ],
       "canonicalVariant": "codex"
@@ -1046,22 +3347,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-session-summary"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\specstory-session-summary",
+          "originRelativePath": "specstory-session-summary"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-session-summary"
-        },
-        {
-          "source": "claudecode",
-          "path": "variants/claudecode",
-          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-session-summary"
-        },
-        {
-          "source": "agents",
-          "path": "variants/agents",
-          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-session-summary"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\specstory-session-summary",
+          "originRelativePath": "zapabob/specstory-session-summary"
         }
       ],
       "canonicalVariant": "codex"
@@ -1074,25 +3367,143 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\specstory-yak"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\specstory-yak",
+          "originRelativePath": "specstory-yak"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\specstory-yak"
-        },
-        {
-          "source": "claudecode",
-          "path": "variants/claudecode",
-          "originPath": "C:\\Users\\downl\\.claude\\skills\\specstory-yak"
-        },
-        {
-          "source": "agents",
-          "path": "variants/agents",
-          "originPath": "C:\\Users\\downl\\.agents\\skills\\specstory-yak"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\specstory-yak",
+          "originRelativePath": "zapabob/specstory-yak"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "spike",
+      "displayName": "spike",
+      "description": "\"Throwaway experiments to validate an idea before build.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\spike",
+          "originRelativePath": "software-development/spike"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "spotify",
+      "displayName": "spotify",
+      "description": "\"Spotify: play, search, queue, manage playlists and devices.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\media\\spotify",
+          "originRelativePath": "media/spotify"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "stable-diffusion",
+      "displayName": "stable-diffusion-image-generation",
+      "description": "State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. Use when generating images from text prompts, performing image-to-image translation, inpainting, or building custom diffusion pipelines.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\stable-diffusion",
+          "originRelativePath": "mlops/stable-diffusion"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "stocks",
+      "displayName": "stocks",
+      "description": "Stock quotes, history, search, compare, crypto via Yahoo.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\finance\\stocks",
+          "originRelativePath": "finance/stocks"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "subagent-driven-development",
+      "displayName": "subagent-driven-development",
+      "description": "\"Execute plans via delegate_task subagents (2-stage review).\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\subagent-driven-development",
+          "originRelativePath": "software-development/subagent-driven-development"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "systematic-debugging",
+      "displayName": "systematic-debugging",
+      "description": "\"4-phase root cause debugging: understand bugs before fixing.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\systematic-debugging",
+          "originRelativePath": "software-development/systematic-debugging"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "teams-meeting-pipeline",
+      "displayName": "teams-meeting-pipeline",
+      "description": "\"Operate the Teams meeting summary pipeline via Hermes CLI — summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\productivity\\teams-meeting-pipeline",
+          "originRelativePath": "productivity/teams-meeting-pipeline"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "telephony",
+      "displayName": "telephony",
+      "description": "Give Hermes phone capabilities without core tool changes. Provision and persist a Twilio number, send and receive SMS/MMS, make direct calls, and place AI-driven outbound calls through Bland.ai or Vapi.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\productivity\\telephony",
+          "originRelativePath": "productivity/telephony"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "tensorrt-llm",
+      "displayName": "tensorrt-llm",
+      "description": "Optimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest latency. Use for production deployment on NVIDIA GPUs (A100/H100), when you need 10-100x faster inference than PyTorch, or for serving models with quantization (FP8/INT4), in-flight batching, and multi-GPU scaling.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\tensorrt-llm",
+          "originRelativePath": "mlops/tensorrt-llm"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "terminal-integration-manager",
@@ -1102,10 +3513,25 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\terminal-integration-manager"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\terminal-integration-manager",
+          "originRelativePath": "terminal-integration-manager"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "test-driven-development",
+      "displayName": "test-driven-development",
+      "description": "\"TDD: enforce RED-GREEN-REFACTOR, tests before code.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\test-driven-development",
+          "originRelativePath": "software-development/test-driven-development"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "test-gen",
@@ -1115,12 +3541,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\test-gen"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\test-gen",
+          "originRelativePath": "test-gen"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\test-gen"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\test-gen",
+          "originRelativePath": "zapabob/test-gen"
         }
       ],
       "canonicalVariant": "codex"
@@ -1133,15 +3561,59 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\test-tui"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\test-tui",
+          "originRelativePath": "test-tui"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\test-tui"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\test-tui",
+          "originRelativePath": "zapabob/test-tui"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "torchtitan",
+      "displayName": "distributed-llm-pretraining-torchtitan",
+      "description": "Provides PyTorch-native distributed LLM pretraining using torchtitan with 4D parallelism (FSDP2, TP, PP, CP). Use when pretraining Llama 3.1, DeepSeek V3, or custom models at scale from 8 to 512+ GPUs with Float8, torch.compile, and distributed checkpointing.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\torchtitan",
+          "originRelativePath": "mlops/torchtitan"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "touchdesigner-mcp",
+      "displayName": "touchdesigner-mcp",
+      "description": "\"Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\creative\\touchdesigner-mcp",
+          "originRelativePath": "creative/touchdesigner-mcp"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "trl-fine-tuning",
+      "displayName": "fine-tuning-with-trl",
+      "description": "\"TRL: SFT, DPO, PPO, GRPO, reward modeling for LLM RLHF.\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\training\\trl-fine-tuning",
+          "originRelativePath": "mlops/training/trl-fine-tuning"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "ts-reviewer",
@@ -1151,12 +3623,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\ts-reviewer"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\ts-reviewer",
+          "originRelativePath": "ts-reviewer"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\ts-reviewer"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\ts-reviewer",
+          "originRelativePath": "zapabob/ts-reviewer"
         }
       ],
       "canonicalVariant": "codex"
@@ -1169,15 +3643,31 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\unity-reviewer"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\unity-reviewer",
+          "originRelativePath": "unity-reviewer"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\unity-reviewer"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\unity-reviewer",
+          "originRelativePath": "zapabob/unity-reviewer"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "unsloth",
+      "displayName": "unsloth",
+      "description": "\"Unsloth: 2-5x faster LoRA/QLoRA fine-tuning, less VRAM.\"",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\training\\unsloth",
+          "originRelativePath": "mlops/training/unsloth"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "update-cursor-settings",
@@ -1185,12 +3675,41 @@
       "description": "Modify Cursor/VSCode user settings in settings.json. Use when you want to change editor settings, preferences, configuration, themes, font size, tab size, format on save, auto save, keybindings, or any settings.json values.",
       "variants": [
         {
-          "source": "cursor-rules",
-          "path": "variants/cursor-rules",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills-cursor\\update-cursor-settings"
+          "source": "cursor-rules-staging",
+          "path": "variants/cursor-rules-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\rules-staging\\zapabob\\update-cursor-settings",
+          "originRelativePath": "zapabob/update-cursor-settings"
         }
       ],
-      "canonicalVariant": "cursor-rules"
+      "canonicalVariant": "cursor-rules-staging"
+    },
+    {
+      "slug": "vllm",
+      "displayName": "serving-llms-vllm",
+      "description": "\"vLLM: high-throughput LLM serving, OpenAI API, quantization.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\mlops\\inference\\vllm",
+          "originRelativePath": "mlops/inference/vllm"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "vrchat",
+      "displayName": "vrchat-osc",
+      "description": "VRChat OSC integration — chatbox messaging, avatar parameter control, and raw OSC via python-osc. Requires VOICEVOX and VRChat running with OSC enabled.",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\gaming\\vrchat",
+          "originRelativePath": "gaming/vrchat"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "vrchat-dev",
@@ -1200,15 +3719,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\vrchat-dev"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\vrchat-dev",
+          "originRelativePath": "vrchat-dev"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\vrchat-dev"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\vrchat-dev",
+          "originRelativePath": "zapabob/vrchat-dev"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "watchers",
+      "displayName": "watchers",
+      "description": "Poll RSS, JSON APIs, and GitHub with watermark dedup.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\devops\\watchers",
+          "originRelativePath": "devops/watchers"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
+    },
+    {
+      "slug": "web-pentest",
+      "displayName": "web-pentest",
+      "description": "|",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\security\\web-pentest",
+          "originRelativePath": "security/web-pentest"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "web-search-deepresearch",
@@ -1216,12 +3765,55 @@
       "description": "Transforms basic web search into comprehensive deep research with ClaudeCowork integration, multi-model AI intelligence (Manus/Genspark style), adaptive learning, and enhanced user experience. Combines Cowork productivity automation with advanced AI research capabilities for intelligent, autonomous task execution across research, analysis, and productivity domains.",
       "variants": [
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\web-search-deepresearch"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\web-search-deepresearch",
+          "originRelativePath": "zapabob/web-search-deepresearch"
         }
       ],
-      "canonicalVariant": "cursor"
+      "canonicalVariant": "cursor-staging"
+    },
+    {
+      "slug": "webhook-subscriptions",
+      "displayName": "webhook-subscriptions",
+      "description": "\"Webhook subscriptions: event-driven agent runs.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\devops\\webhook-subscriptions",
+          "originRelativePath": "devops/webhook-subscriptions"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "weights-and-biases",
+      "displayName": "weights-and-biases",
+      "description": "\"W&B: log ML experiments, sweeps, model registry, dashboards.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\mlops\\evaluation\\weights-and-biases",
+          "originRelativePath": "mlops/evaluation/weights-and-biases"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "whisper",
+      "displayName": "whisper",
+      "description": "OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for speech-to-text, podcast transcription, or multilingual audio processing. Best for robust, multilingual ASR.",
+      "variants": [
+        {
+          "source": "hermes-agent-optional",
+          "path": "variants/hermes-agent-optional",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\optional-skills\\mlops\\whisper",
+          "originRelativePath": "mlops/whisper"
+        }
+      ],
+      "canonicalVariant": "hermes-agent-optional"
     },
     {
       "slug": "worktree-manager",
@@ -1231,15 +3823,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\worktree-manager"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\worktree-manager",
+          "originRelativePath": "worktree-manager"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\worktree-manager"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\worktree-manager",
+          "originRelativePath": "zapabob/worktree-manager"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "writing-plans",
+      "displayName": "writing-plans",
+      "description": "\"Write implementation plans: bite-sized tasks, paths, code.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\software-development\\writing-plans",
+          "originRelativePath": "software-development/writing-plans"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "xurl",
+      "displayName": "xurl",
+      "description": "\"X/Twitter via xurl CLI: post, search, DM, media, v2 API.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\social-media\\xurl",
+          "originRelativePath": "social-media/xurl"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "yaraikata-memo",
@@ -1249,7 +3871,8 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\yaraikata-memo"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\yaraikata-memo",
+          "originRelativePath": "yaraikata-memo"
         }
       ],
       "canonicalVariant": "codex"
@@ -1262,15 +3885,45 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\yolo-auto"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\yolo-auto",
+          "originRelativePath": "yolo-auto"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\yolo-auto"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\yolo-auto",
+          "originRelativePath": "zapabob/yolo-auto"
         }
       ],
       "canonicalVariant": "codex"
+    },
+    {
+      "slug": "youtube-content",
+      "displayName": "youtube-content",
+      "description": "\"YouTube transcripts to summaries, threads, blogs.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\media\\youtube-content",
+          "originRelativePath": "media/youtube-content"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
+    },
+    {
+      "slug": "yuanbao",
+      "displayName": "yuanbao",
+      "description": "\"Yuanbao (元宝) groups: @mention users, query info/members.\"",
+      "variants": [
+        {
+          "source": "hermes-agent",
+          "path": "variants/hermes-agent",
+          "originPath": "C:\\Users\\butte\\OneDrive\\ドキュメント\\New project\\hermes-agent\\skills\\yuanbao",
+          "originRelativePath": "yuanbao"
+        }
+      ],
+      "canonicalVariant": "hermes-agent"
     },
     {
       "slug": "yukkuri-movie",
@@ -1280,12 +3933,14 @@
         {
           "source": "codex",
           "path": "variants/codex",
-          "originPath": "C:\\Users\\downl\\.codex\\skills\\yukkuri-movie"
+          "originPath": "C:\\Users\\butte\\.codex\\skills\\yukkuri-movie",
+          "originRelativePath": "yukkuri-movie"
         },
         {
-          "source": "cursor",
-          "path": "variants/cursor",
-          "originPath": "C:\\Users\\downl\\.cursor\\skills\\yukkuri-movie"
+          "source": "cursor-staging",
+          "path": "variants/cursor-staging",
+          "originPath": "C:\\Users\\butte\\.cursor\\skills-staging\\zapabob\\yukkuri-movie",
+          "originRelativePath": "zapabob/yukkuri-movie"
         }
       ],
       "canonicalVariant": "codex"

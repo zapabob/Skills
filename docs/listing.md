@@ -16,6 +16,8 @@
 ## Differentiators
 
 - Imports skills across multiple agent ecosystems instead of managing a single vendor format.
+- Pulls nested skills from a sibling `hermes-agent` checkout, including optional, plugin, and vendored harness skills.
+- Preserves Cursor staging variants from `.cursor/skills-staging` and Cursor rule staging variants from `.cursor/rules-staging`.
 - Keeps multiple target-specific variants under one shared skill slug.
 - Ships as an installer-ready catalog that works for npm distribution and external store packaging.
 - Makes it easier to present a curated bundle of skills as a product, not just a folder copy script.
