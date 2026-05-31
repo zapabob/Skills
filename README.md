@@ -17,6 +17,23 @@ Portable multi-agent skill catalog and installer for Codex, ClaudeCode, Cursor, 
 - Portable skill registry: the generated `registry/` can be versioned, published, and repackaged for external catalogs.
 - Store-ready positioning: the project is easy to describe as a multi-agent skill catalog instead of a single one-off skill.
 
+## AI Engineering Portfolio Top 10
+
+These ten skills make the catalog read as a practical AI engineering portfolio: agent runtime work, local inference, LLM serving, evaluation, research tooling, creative AI workflows, and production-grade orchestration.
+
+| Rank | Skill | Portfolio Signal | Install |
+| --- | --- | --- | --- |
+| 1 | `hermes-agent` | End-to-end agent platform engineering: runtime configuration, extension points, tools, skills, gateways, and multi-profile operations. | `npx @zapabob/skills install hermes-agent --target codex` |
+| 2 | `opencode-free-rotation` | Cost-aware model routing and failover design for practical daily AI engineering. | `npx @zapabob/skills install opencode-free-rotation --target codex` |
+| 3 | `codebase-inspection` | Fast codebase analytics for language mix, LOC, surface area, and maintainability scouting. | `npx @zapabob/skills install codebase-inspection --target codex` |
+| 4 | `kanban-orchestrator` | Multi-agent work decomposition, delegation, and delivery management through a durable task board. | `npx @zapabob/skills install kanban-orchestrator --target codex` |
+| 5 | `vllm` | High-throughput LLM serving with OpenAI-compatible APIs, quantization, and deployment guidance. | `npx @zapabob/skills install vllm --target codex` |
+| 6 | `llama-cpp` | Local GGUF inference, model discovery, and rollback-friendly private model operations. | `npx @zapabob/skills install llama-cpp --target codex` |
+| 7 | `dspy` | Declarative LM programs, RAG pipelines, and prompt/program optimization workflows. | `npx @zapabob/skills install dspy --target codex` |
+| 8 | `weights-and-biases` | Experiment tracking, sweeps, model registry, dashboards, and MLOps observability. | `npx @zapabob/skills install weights-and-biases --target codex` |
+| 9 | `research-paper-writing` | ML research execution from idea framing through experiment reporting and conference-style submission. | `npx @zapabob/skills install research-paper-writing --target codex` |
+| 10 | `comfyui` | Multimodal AI workflow engineering for image, video, audio generation, model/node management, and API execution. | `npx @zapabob/skills install comfyui --target codex` |
+
 ## Quick Start
 
 ```bash
