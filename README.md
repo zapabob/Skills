@@ -102,6 +102,13 @@ npm pack
 
 This makes the package suitable for external catalogs, store packaging, and future commercial bundling without changing the public CLI.
 
+## PC Reference Snapshots
+
+- [SKILL.md archive](archive/skill-md-reviewed/README.md) records the readable skills found across this PC, with duplicates collapsed and sensitive text redacted.
+- [PC engineering baseline](docs/pc-baseline/README.md) preserves the canonical `AGENTS.md` and SOP Markdown files.
+
+These GitHub reference snapshots are separate from the installer registry and the npm package.
+
 ## Development Notes
 
 - Run `npm run import-local` to refresh the registry from local skill sources.
