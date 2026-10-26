@@ -36,4 +36,4 @@ Two earlier local snapshot drafts under `archive/skill-md/` and `archive/skill-m
 
 ## Next action
 
-Review the staged Git path list and diff checks, commit only the reviewed archive and canonical baseline, then push and verify the exact remote SHA.
+The content commit `76993700b9a479ed1413affd6e67db5b1b80c8c2` was pushed to `origin/main`; GitHub's commit API and `git ls-remote` returned the same SHA. One GitHub Actions workflow exists, but no run for this SHA was returned at closeout. Review the 25 withheld contents only with suitable redistribution rights and a separate security check. Revisit the 157 scan errors if coverage of inaccessible locations is required. The two local draft directories remain untracked because automatic approval review rejected both recursive and exact-file deletion operations as blocked by policy.
